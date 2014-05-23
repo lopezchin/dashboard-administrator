@@ -1,0 +1,413 @@
+/*
+ * Forms
+ *
+ */
+
+
+// Layouts
+// =====================================
+/*
+ * Extension of forms
+ */
+
+.l-fields-horizontal {
+	font-size: 12px;
+	color: #656565;
+	text-transform: uppercase;
+}
+
+
+.form-horizontal--2nd {
+	float: left;
+	width: 100%;
+	.clearfix();
+	
+	@media(max-width: 1200px) {
+		margin-top: 0;
+	}
+}
+
+// Inline
+// =====================================
+
+.form-inline {
+	.form-group {
+		margin-bottom: 0;
+	}
+}
+
+// Groups
+// =====================================
+
+
+.form-group--2nd {
+	margin: 0;
+}
+
+.form-group {
+	.clearfix;
+	margin-bottom: 18px;
+
+	.note {
+		font-size: 12px;
+		padding: 5px 0;
+		color: #7E7E7E;
+	}
+}
+
+
+.form-control {
+	border-radius: 3px;
+}
+
+.datetimepicker-wrap {
+    position: relative;
+
+    .input-group-addon {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    border: 0;
+	    background: transparent;
+	    margin: 3px 12px;
+	    color: #838383;
+	}
+}
+
+.label-control {
+	color: #6D6D6D;
+}
+
+// Rounded
+// =====================================
+
+
+.form-rounded {
+	.form-control {
+		width: 240px;
+		height: 36px;
+		padding-left: 32px;
+		border-radius: 30px;
+		border-color: #d1d1d1;
+		background: #f9f9f9;
+		color: #b7b7b7;
+		font-style: italic;
+		font-size: 15px;
+		font-weight: 300;
+		
+		&:focus {
+			width: 270px;
+		}
+	}
+}
+
+
+// Controls
+// =====================================
+
+.form-control {
+	.box-shadow(none);
+	.transition(all .2s linear);
+	
+	&:focus {
+		.box-shadow(none);
+		border-color: #67a7f6;
+	}
+}
+
+.form-control--2nd {
+	height: 42px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #464646;
+	
+	&::-webkit-input-placeholder {
+	   color: #464646;
+	}
+	
+	&::-moz-input-placeholder {
+	   color: #464646;
+	}
+
+	&::-ms-input-placeholder {
+	   color: #464646;
+	}
+
+}
+
+
+// Modifier
+// =====================================
+
+.form-pretty {
+	background: #f5f4f5;
+	border-radius: 0;
+}
+
+.form-pretty--white {
+	background: #FFF;
+}
+
+
+textarea {
+	height: auto;
+	resize: vertical;
+}
+
+
+// Animate
+// =====================================
+
+.smil {
+	.form-ease-in {
+		opacity: 0;
+		-webkit-animation-name: ease-in;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: ease-out;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-delay: 0.8s;
+		-moz-animation-name: ease-in;
+		-moz-animation-duration: .5s;
+		-moz-animation-iteration-count: 1;
+		-moz-animation-timing-function: ease-out;
+		-moz-animation-fill-mode: forwards;
+		-moz-animation-delay: 0.8s;
+	}
+
+	.form-ease-in--2s {
+		opacity: 0;
+		-webkit-animation-name: ease-in;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: ease-out;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-delay: 1.5s;
+		-moz-animation-name: ease-in;
+		-moz-animation-duration: .5s;
+		-moz-animation-iteration-count: 1;
+		-moz-animation-timing-function: ease-out;
+		-moz-animation-fill-mode: forwards;
+		-moz-animation-delay: 1.5s;
+	}
+
+
+	.form-ease-in--3s {
+		opacity: 0;
+		-webkit-animation-name: ease-in;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: ease-out;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-delay: 1.9s;
+		-moz-animation-name: ease-in;
+		-moz-animation-duration: .5s;
+		-moz-animation-iteration-count: 1;
+		-moz-animation-timing-function: ease-out;
+		-moz-animation-fill-mode: forwards;
+		-moz-animation-delay: 1.9s;
+	}
+
+
+	.form-ease-in--4s {
+		opacity: 0;
+		-webkit-animation-name: ease-in;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: ease-out;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-delay: 2.5s;
+		-moz-animation-name: ease-in;
+		-moz-animation-duration: .5s;
+		-moz-animation-iteration-count: 1;
+		-moz-animation-timing-function: ease-out;
+		-moz-animation-fill-mode: forwards;
+		-moz-animation-delay: 2.5s;
+	}
+
+
+
+	.form-ease-in--5s {
+		opacity: 0;
+		-webkit-animation-name: ease-in;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: ease-out;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-delay: 3s;
+		-moz-animation-name: ease-in;
+		-moz-animation-duration: .5s;
+		-moz-animation-iteration-count: 1;
+		-moz-animation-timing-function: ease-out;
+		-moz-animation-fill-mode: forwards;
+		-moz-animation-delay: 3s;
+	}
+
+}
+
+// Reset
+// =====================================
+
+.form-ugly {
+	padding-left: 10px;
+	border: 0;
+	background: none;
+	box-shadow: none;
+	outline: none;
+}
+
+.form-offset {
+	position: relative;
+	padding: 0;
+	
+	.form-control {
+		padding-left: 260px;
+	}
+}
+
+.form-url {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	z-index: 9;
+	margin-right: 10px;
+	padding: 6px 12px;
+	border-right: 1px solid #e3e3e3;
+	background: #ececec;
+}
+
+.form-title {
+	position: relative;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+	-webkit-appearance: none;
+}
+
+select {
+	height: 34px;
+    padding: 6px 8px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #cccccc;
+}
+
+.form-control[disabled], 
+.form-control[readonly], 
+fieldset[disabled] .form-control {
+	background-color: #f5f4f5;
+}
+
+.form-horizontal {
+	.control-label {
+		font-weight: 500;
+
+		.fa {
+			margin-left: 6px;
+		}
+	}
+
+}
+
+.form-login {
+	margin-top: 16px;
+	.forgot-pass {
+	    margin: 10px 0;
+	}
+	.form-control {
+	    height: 36px;
+	}
+	.btn {
+	    border-radius: 4px;
+	}
+	.form-group {
+	    margin-bottom: 12px;
+	}
+}
+
+.form-l2 {
+	max-width: 1400px;
+
+	.form-control {
+	    height: 37px;
+	}
+}
+
+.field-action-inline {
+	margin-right: 20px;
+	margin-top: 6px;
+
+	.btn {
+		margin-left: 5px;
+	}
+}
+
+.form-group-actions {
+    margin: 15px 0;
+
+    .btn {
+	    border-radius: 5px;
+	    border-color: #C4C4C4;
+	}
+}
+
+.form-inline-label {
+	position: relative;
+
+	label {
+		position: absolute;
+		top: 7px;
+		left: 10px;
+		bottom: 0;
+		margin: auto;
+		z-index: 1;
+	}
+
+	.form-control {
+		padding-left: 125px;
+	}
+}
+
+.form-group-inline-wrap {
+	.clearfix;
+
+	.form-group {
+		display: inline-block;
+		float: left;
+		margin-right: 8px;
+		margin-bottom: 10px;
+	}
+}
+
+.form-group-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 0;
+
+    > * {
+	    display: inline-block;
+	    width: auto;
+	    margin: 0;
+	    float: left;
+	}
+
+	> .control-label {
+	    margin: 6px 16px 0 0;
+	}
+}
+

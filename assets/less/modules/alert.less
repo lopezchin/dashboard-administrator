@@ -1,0 +1,68 @@
+/*
+ * This is an ovver
+ */
+
+// Custom
+
+.alert {
+	background: #FFF;
+	border-radius: 2px;
+	border: 0;
+	box-shadow: rgba(0, 0, 0, 0.09) 0 1px 1px;
+
+	.fa {
+		margin: 0 5px;
+	}
+
+	.close {
+		outline: none;
+		font-size: 20px;
+		color: #A5A5A5;
+	}
+}
+
+.alert-danger {
+	border-left: 4px solid @brand-danger!important;
+}
+.alert-success {
+	border-left: 4px solid @brand-success!important;
+}
+.alert-warning {
+	border-left: 4px solid @brand-warning!important;
+}
+.alert-info {
+	border-left: 4px solid @brand-info!important;
+}
+
+.alert-omega {
+	margin: 0;
+}
+
+.alert-small {
+	padding: 10px;
+	
+	.close {
+		margin-top: -3px;
+		opacity: 0.8;
+	}
+
+	.fa-times-circle {
+		font-size: 16px;
+		color: #B94A48;
+	}
+}
+
+// Overrides
+
+.alert {
+	.close {
+		outline: none;
+	}
+}
+
+.alert-success {
+	
+	.close {
+		opacity: 0.3;
+	}
+}

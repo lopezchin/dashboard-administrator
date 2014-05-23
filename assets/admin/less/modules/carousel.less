@@ -1,0 +1,52 @@
+/* 
+ *
+ *
+ */
+
+.carousel {
+
+}
+
+.carousel-control {
+	display: block;
+	position: relative;
+	float: left;
+	width: 50%;
+	background-image: none !important;
+	background: #fff !important;
+	background-color: #fff !important;
+	filter: none !important;
+	opacity: 1;
+	text-shadow: none;
+	color: #2d2d2d;
+	font-size: 15px;
+	border-color: #bababa;
+	text-transform: uppercase;
+	
+	&.left {
+		border-radius: 4px 0 0 4px;
+		border-right: 0;
+	}
+
+	&.right {
+		border-radius: 0 4px 4px 0;
+	}
+	
+	&:hover {
+		color: #59a4dc;
+	}
+
+}
+
+.carousel-inner {
+	overflow: inherit;
+}
+
+.item {
+	.fa-trash-o {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		color: #f16b6b;
+	}
+}

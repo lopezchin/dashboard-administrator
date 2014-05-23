@@ -1,0 +1,315 @@
+/*
+ * Section
+ *
+ */
+
+@title_color:         #8f8f8f;
+@title_color-2nd:     #7c7c7c;
+
+.section {
+	.clearfix();
+	
+	padding: 20px 16px;
+}
+
+.section--top {
+	position: fixed;
+	top: 54px;
+	z-index: 1013;
+	right: 0;
+	left: 220px;
+	min-width: 768px;
+	padding: 16px 16px 18px;
+	border-bottom: 1px solid #e3e3e3;
+	background: #fff;
+
+
+	.section__title {
+		margin: 0;
+		padding: 5px 0;
+		color: #5E5E5E;
+		font-weight: 500
+	}
+
+	@media (max-width: 1100px) {
+		left: 69px;
+	}
+}
+
+.section--top2 {
+    padding: 0;
+	.section-top {
+		padding: 12px;
+	}
+    .section-bottom {
+	    border-top: 1px solid #DDD;
+		padding: 13px 16px 9px;
+		background: #F7F7F7;
+		box-shadow: rgba(0, 0, 0, 0.14) 0 1px 1px;
+	}
+}
+
+
+.section__title {
+	color: @title_color-2nd;
+	font-weight: 300;
+}
+
+.section__buttons {
+	padding-top: 18px;
+	
+	.btn {
+		margin-right: 6px;
+	}
+}
+
+.section--stroke {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.section--box {
+	.section__content {
+		overflow: hidden;
+		margin-bottom: 20px;
+		border-radius: 4px;
+		border: 1px solid #dbdbdb;
+		.box-shadow(0 1px 1px rgba(0,0,0,0.07));
+	}
+}
+
+.section--offset {
+	padding-top: 0;
+}
+
+.section--offset-bottom {
+	padding-bottom: 0;
+}
+
+
+
+.section-l2 {
+	.clearfix;
+	padding: 0;
+    margin-bottom: 14px;
+
+    .section-title {
+	    font-size: 20px;
+	    display: inline-block;
+	    margin-top: 4px;
+	}
+
+	.btn {
+	    margin-left: 15px;
+	    margin-top: -4px;
+	}
+
+	.select2-container,
+	.select2-drop,
+	.select2-search,
+	.select2-search input {
+		width: 90px;
+		margin-left: 10px;
+	}
+
+}
+
+.section-l10 {
+	background-color: #e9e9e9;
+    margin-top: 2.5em;
+    padding-top: 3em;
+
+    > .section-heading{
+		padding: 0 20px;
+	}
+}
+
+.section-tab-content {
+	background: #F5F5F5;
+}
+
+.section-l8,
+.section-l9 {
+	padding: 0;
+
+	.section-heading {
+		margin: 0 0 24px;
+
+		h3 {
+			margin: 0;
+			text-transform: uppercase;
+			display: inline-block;
+			font-size: 16px;
+			color: #3082B3;
+		}
+
+		.btn {
+			margin-bottom: 5px;
+			float: right;
+		}
+
+		.tooltip2 {
+			margin: 0 6px 1px;
+			position: relative;
+			top: -3px;
+		}
+	}
+}
+
+.section-l8 {
+	padding: 5px;
+
+	.alert {
+		border: 0;
+		padding: 8px 10px;
+		box-shadow: none;
+		border-radius: 3px;
+	}
+
+	.alert-info {
+		background-color: #CBEDF7;
+	}
+}
+
+
+.btn-bordered {
+    border: 1px solid #B6B6B6;
+    color: #686868;
+    border-radius: 30px;
+    padding: 6px 21px 6px;
+}
+
+.heading-l2 {
+	h1 {
+		font-size: 30px;
+		margin-bottom: 10px;
+		margin-top: 0;
+	}
+
+	.alert {
+		margin-bottom: 0;
+	}
+}
+
+.section-l7 {
+	padding: 0 10px;
+}
+
+.section-l9 {
+    padding: 17px 0;
+    border-bottom: 1px solid #ddd;
+
+    .section-heading {
+    	.clearfix;
+    	.tooltip2,
+    	h3 {
+    		float: left;
+    		top: 0;
+    		 margin: 7px 0 0;
+    	}
+
+    	.tooltip2 {
+    		margin: 10px;
+    	}
+
+    	.btn {
+		    float: right;
+		}
+
+    }
+}
+
+.heading-l2 {
+	h1 {
+	    font-size: 23px;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+}
+
+
+.remove_form_item {
+    float: right;
+    font-size: 13px;
+
+    .fa {
+	    margin-right: 3px;
+	}
+}
+
+
+.form-fieldset {
+	.clearfix;
+
+	.form-item {
+	    background: #fff;
+	    padding: 20px;
+	    border: 1px solid #ddd;
+	    border-radius: 4px;
+	    margin-top: 12px;
+	    .clearfix;
+
+	    .remove_form_item {
+    		float: right;
+    	}
+
+    	&:first-child {
+    		margin-top: 0;
+    	}
+	}
+}
+
+.total-row {
+  color: #555;
+  font-size: 22px;
+  margin: 9px 0;
+   font-weight: 200;
+}
+
+.total-title {
+  width: 300px;
+  display: inline-block;
+  color: #6D6D6D;
+}
+
+.total-price {
+    font-weight: 200;
+}
+
+//
+
+
+.content-inner-main {
+	float: left;
+	width: 100%;
+	padding-right: 260px;
+}
+.content-inner-sidebar {
+    float: right;
+	width: 260px;
+	margin-left: -260px;
+	position: fixed;
+	right: 0;
+	margin-top: 47px;
+	background: #FFF;
+	padding: 16px;
+	height: 100%;
+	border-left: 1px solid #D3D3D3;
+}
+
+.widget.widget-note {
+	.form-control {
+	    background: #FAFAFA;
+	}
+}
+.widget-note {
+	.form-group {
+	    margin-bottom: 10px;
+	}
+
+	.widget-title {
+	    font-size: 18px;
+	    text-transform: uppercase;
+	    margin: 0 0 12px;
+	}
+}
+

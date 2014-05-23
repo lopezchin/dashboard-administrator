@@ -1,0 +1,121 @@
+[class^="itp-"],
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.icon-sprite, .icon-icon-rocket, .icon-logo, .icon-logo2, .icon-moon, .icon-process-active, .icon-rocket, .icon-safe-web, .icon-satellite, .icon-space-path1, .icon-spaceman, .icon-why-web {
+  background: url('../i/icon-s4c13f8c8de.png') no-repeat;
+}
+
+.icon-icon-rocket {
+  background-position: 0 0;
+}
+
+.icon-logo {
+  background-position: -22px 0;
+}
+
+.icon-logo2 {
+  background-position: -188px 0;
+}
+
+.icon-moon {
+  background-position: -354px 0;
+}
+
+.icon-process-active {
+  background-position: -454px 0;
+}
+
+.icon-rocket {
+  background-position: -633px 0;
+}
+
+.icon-safe-web {
+  background-position: -674px 0;
+}
+
+.icon-satellite {
+  background-position: -728px 0;
+}
+
+.icon-space-path1 {
+  background-position: -785px 0;
+}
+
+.icon-spaceman {
+  background-position: -974px 0;
+}
+
+.icon-why-web {
+  background-position: -1024px 0;
+}
+
+.brand {
+  width: 166px;
+  height: 51px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -179px no-repeat;
+}
+
+.brand2 {
+  width: 166px;
+  height: 51px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -240px no-repeat;
+}
+
+.process > a:after {
+  content: '';
+  display: block;
+  width: 179px;
+  height: 89px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -389px;
+}
+
+.icon-rocket {
+  width: 22px;
+  height: 22px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -740px;
+}
+
+.icon-why-web {
+  width: 50px;
+  height: 50px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -680px;
+}
+
+.icon-safe-web {
+  width: 54px;
+  height: 50px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -488px;
+}
+
+.itp-rocket {
+  width: 41px;
+  height: 32px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -638px;
+}
+
+.itp-satellite {
+  width: 57px;
+  height: 59px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 0;
+}
+
+.itp-moon {
+  width: 100px;
+  height: 100px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -69px;
+}
+
+.itp-spaceman {
+  width: 50px;
+  height: 78px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -301px;
+}
+
+.itp-space-path-1 {
+  width: 189px;
+  height: 81px;
+  background: url('../i/icon-sc9d4ed84ef.png') 0 -548px;
+}

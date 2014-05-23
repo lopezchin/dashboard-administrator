@@ -1,0 +1,129 @@
+.sales-reports-total--grid {
+	width: 20%;	
+
+	@media (max-width: 1024px) {
+		width: 33.3%;
+		margin-bottom: 20px;
+	}
+}
+
+.sales-reports-total {
+
+	&:hover {
+		.icon-sales-dot {
+			&:after {
+				-webkit-transform: scale(.9);
+				-moz-transform: scale(.9);
+				-ms-transform: scale(.9);
+				transform: scale(.9);
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.sales-reports-total-title {
+	margin-bottom: 2px;
+	color: #a9d96c;
+}
+
+.icon-sales-dot {
+	position: relative;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border-radius: 100%;
+	background: #a9d96c;
+	color: #fff;
+	.transition(background .2s color .2s);
+	
+	span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+	&:after {
+		pointer-events: none;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		content: '';
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+		top: -7px;
+		left: -7px;
+		padding: 7px;
+		box-shadow: 0 0 0 2px #a9d96c;
+		-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+		-webkit-transform: scale(.8);
+		-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+		-moz-transform: scale(.8);
+		-ms-transform: scale(.8);
+		transition: transform 0.2s, opacity 0.2s;
+		transform: scale(.8);
+		opacity: 0;
+	}
+}
+
+.sales-reports-total--pending {
+	.icon-sales-dot {
+		background: #ff864d;	
+		
+		&:after {
+			box-shadow: 0 0 0 2px #ff864d;
+		}
+	}
+
+	.sales-reports-total-title {
+		color: #ff864d;
+	}
+}
+
+.sales-reports-total--financed {
+	.icon-sales-dot {
+		background: #41cac0;	
+
+		&:after {
+			box-shadow: 0 0 0 2px #41cac0;
+		}
+	}
+
+	.sales-reports-total-title {
+		color: #41cac0;
+	}
+}
+
+.sales-reports-total--cancel {
+	.icon-sales-dot {
+		background: #f26c86;
+		
+		&:after {
+			box-shadow: 0 0 0 2px #f26c86;
+		}
+	}
+
+	.sales-reports-total-title {
+		color: #f26c86;
+	}
+}
+
+.sales-reports-total--volume {
+	.icon-sales-dot {
+		background: #53c3ef;
+
+		&:after {
+			box-shadow: 0 0 0 2px #53c3ef;
+		}
+	}
+
+	.sales-reports-total-title {
+		color: #53c3ef;
+	}
+}

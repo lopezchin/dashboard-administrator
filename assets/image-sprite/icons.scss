@@ -1,0 +1,17 @@
+// this file is compile with compass.
+
+@import "compass/utilities/sprites";
+
+[class^="icon-"],
+[class*="icon-"] {
+	display: inline-block;
+}
+
+$icon-layout:horizontal;
+@import "icons/*.png";
+@include all-icons-sprites;
+$icons: sprite-map("icons/*.png", $spacing: 10px);
+
+.navbar-brand {  	
+	background: sprite($icons, brand-white);
+}

@@ -1,0 +1,63 @@
+/*
+ *
+ *
+ */
+
+.gravatar {
+	position: absolute;
+	top: 15px;
+	left: -48px;
+	
+	img {
+		border: 1px solid #d9d9d9;
+		border-radius: 100%;
+	}
+
+	&:after {
+		position: absolute;
+		top: -10px;
+		left: -10px;
+		content: '';
+		width: 47px;
+		height: 106px;
+		background-image: url("@{url-admin}/i/spritemap.png");
+		background-repeat: no-repeat;
+	}
+}
+
+.gravatar--right {
+	left: auto;
+	right: -48px;
+	
+	&:after {
+		top: -9px;
+		left: auto;
+		right: -10px;
+		background-position: -50px 0;
+	}
+}
+
+.gravatar-small {
+	float: left;
+	margin-right: 10px;
+	
+	img {
+		border-radius: 100%;
+	}
+}
+
+.gravatar-pretty {
+	text-align: center;
+	
+	img {
+		display: inline-block;
+		border-radius: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+.gravatar-l2 {
+	max-width: 243px;
+	padding: 25px;
+	float: right;
+}

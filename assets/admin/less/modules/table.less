@@ -1,0 +1,163 @@
+/*
+ *
+ *
+ */
+
+.table {
+	thead > tr > th {
+		vertical-align: top;
+
+		.fa {
+			margin-left: 8px;
+		}
+	}
+
+	tbody > tr > td {
+	}
+}
+
+.table-pretty {
+	background: #fff;
+	border-radius: 4px;
+	.box-shadow( 0 0 4px rgba(0,0,0,0.08));
+	
+	thead {
+		tr > th {
+			padding: 12px 10px 16px;
+			border-top: 2px solid #dddee3;
+			border-bottom: 0;
+		}
+	}
+
+	.table-pretty-head,
+	tfoot {
+		tr > th {
+			padding: 16px 10px 10px;
+			font-size: 13px;
+			border-bottom: 2px solid #dddee3;
+		}
+	}
+
+	tbody > a {
+		color: #5fb5ef;
+		.transition(color .2s linear);
+		
+		&:hover {
+			color: #2570a2;
+			text-decoration: none;
+		}
+	}
+
+	thead th > a,
+	tfoot th > a {
+		color: #333;
+		text-decoration: none;
+	}
+
+	tbody {
+		tr > td {
+			padding: 10px;
+			font-size: 13px;
+			color: #939393;
+			.transition(background .2s linear);
+		}
+	}
+
+	.fa-sort {
+		margin-left: 5px;
+		font-size: 12px;
+		color: #939393
+	}
+}
+
+.table-results {
+	padding-top: 0;
+	color: #999;
+}
+
+.table-pretty--2nd {
+	margin-top: 10px;
+	.box-shadow(none);
+	thead {
+		tr > th {
+			text-transform: uppercase;
+			&:first-child {
+				padding-left: 25px;
+			}
+		}
+	}
+
+	tbody {
+		border-bottom: 1px solid #dddddd;
+		
+		tr > td {
+			&:first-child {
+				padding-left: 25px;
+			}
+		}
+	}
+
+	.table-pretty-head {
+		tr > th {
+			border-bottom-width: 1px;
+		}
+	}
+}
+
+
+
+.table-default {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.11) 0 1px 1px;
+
+    .row-actions {
+    	visibility: hidden;
+    }
+
+    > tbody > tr{
+		> th,
+		> td{
+		    background-color: #F8F8F8;
+		}
+
+	    &:hover {
+	    	.row-actions {
+	    		visibility: visible;
+	    	}
+	    }
+	}
+	> tbody > tr:nth-child(2n) > th,
+	> tbody > tr:nth-child(2n) > td{
+	    background-color: #F9F9F9;	    
+	}
+
+	> thead > tr > th,
+	> tbody > tr > th,
+	> tfoot > tr > th,
+	> thead > tr > td,
+	> tbody > tr > td,
+	> tfoot > tr > td {
+	    border-left: 0;
+	    border-right: 0;
+	    padding: 10px 16px;
+	}
+	> thead > tr > th,
+	> thead > tr > td,
+	> thead > tr > th a,
+	> thead > tr > td a,
+	> tfoot > tr > th,
+	> tfoot > tr > td,
+	> tfoot > tr > th a,
+	> tfoot > tr > td a {
+	    color: #535353;
+	    font-weight: 600;
+	}
+
+	.data-id {
+		width: 15px;
+	}
+}
+
+.th-small {
+    width: 10px;
+}

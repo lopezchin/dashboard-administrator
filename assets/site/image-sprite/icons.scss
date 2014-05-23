@@ -1,0 +1,124 @@
+// this file is compile with compass.
+
+@import "compass/utilities/sprites";
+
+[class^="itp-"],
+.gytbo,
+.icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+$icons: sprite-map("icon/*.png", $spacing: 10px);
+
+
+.brand {
+  width: 166px;
+  height: 51px;
+  background: sprite($icons, logo) no-repeat;
+}
+.brand2 {
+  width: 166px;
+  height: 51px;
+  background: sprite($icons, logo2) no-repeat;
+}
+.brand3 {
+  width: 166px;
+  height: 35px;
+  background: sprite($icons, logo3) no-repeat;
+}
+
+.process > a:after {	
+	content: '';
+	display: block;
+	width: 179px;
+	height: 89px;
+	background: sprite($icons, process-active);
+}
+
+.icon-rocket {
+	width: 22px;
+	height: 22px;
+	background: sprite($icons,icon-rocket);
+}
+
+
+.icon-pricing {	
+	width: 50px;
+	height: 50px;
+	background: sprite($icons, pricing);
+}
+
+
+.icon-online {	
+	width: 50px;
+	height: 50px;
+	background: sprite($icons, online);
+}
+
+.icon-safe-web {	
+	width: 54px;
+	height: 50px;
+	background: sprite($icons, safe-web);
+}
+.icon-calculator {	
+	width: 45px;
+	height: 45px;
+	background: sprite($icons, calculator);
+}
+
+.icon-benefits {	
+	width: 59px;
+	height: 50px;
+	background: sprite($icons, benefits);
+}
+.icon-process {	
+	width: 43px;
+	height: 43px;
+	background: sprite($icons, process);
+}
+.itp-rocket {	
+	width: 41px;
+	height: 32px;
+	background: sprite($icons, rocket);
+}
+.itp-satellite {	
+	width: 57px;
+	height: 59px;
+	background: sprite($icons, satellite);
+}
+.itp-moon {	
+	width: 100px;
+	height: 100px;
+	background: sprite($icons, moon);
+}
+.itp-spaceman {	
+	width: 50px;
+	height: 78px;
+	background: sprite($icons, spaceman);
+}
+.itp-spaceman-success {
+	width: 55px;
+	height: 99px;
+	background: sprite($icons, spaceman-completed);
+}
+.itp-space-path-1 {	
+	width: 189px;
+	height: 81px;
+	background: sprite($icons, space-path1);
+}
+
+.gytbo-email {
+	width: 19px;
+	height: 14px;
+	background: sprite($icons, envelope);
+}
+.gytbo-password {
+	width: 18px;
+	height: 18px;
+	background: sprite($icons, key);
+}

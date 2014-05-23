@@ -1,0 +1,175 @@
+/*
+ * Panels
+ */
+
+.panel {
+	/*position: relative;
+	z-index: 1;*/
+	border-color: #dfdfdf;
+}
+
+.panel--gray {
+	background: #f0f0f0;
+}
+
+.panel-default > .panel-heading {
+	background: #FFF;
+}
+
+.panel__heading {
+	display: block;
+	overflow: hidden;
+	padding: 14px 12px;
+	border-bottom: 1px solid #dfdfdf;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	background: #f6f6f6;
+	text-decoration: none;
+	
+	.h4 {
+		font-size: 17px;
+		margin: 0;
+	}
+}
+
+.panel-heading {
+	display: block;
+	
+	&:active,
+	&:focus {
+		background-color: #E2E2E2;
+	}
+	
+	&:hover {
+		text-decoration: none;
+	}
+
+	.panel-title {
+		font-size: 14px;
+	}
+}
+
+.panel__heading--white {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	background: #fff;
+}
+
+.panel__heading--small {
+	padding: 7px;
+}
+
+.panel__heading--small-2nd {
+	padding: 0;
+	border: 0;
+}
+
+// Makes the heading fit
+
+.panel__heading--omega {
+	padding: 0;
+}
+
+.panel__content {
+	/*overflow: hidden;*/
+	.clearfix();
+	padding: 12px;
+}
+
+.panel__content--huge {
+	padding-bottom: 80px;
+}
+
+.panel__sub {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.panel__sub--2nd {
+	text-align: center;
+}
+
+.panel__image {
+	overflow: hidden;
+	position: relative;
+	min-height: 230px;
+	background-color: #f5f5f5 ;
+	background-image: url("@{url-admin}i/img-placeholder.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		max-width: 100%;
+	}
+}
+
+.panel__image-remove {
+	display: block;
+	padding-top: 5px;	
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.panel__image-remove--2nd {
+	text-align: center;
+}
+
+.panel__content--offset {
+	padding: 0;
+}
+
+.panel-body-unoffset {
+	padding: 0;
+
+	.list-group {
+		li {
+			padding: 6px 15px;
+		}
+	}
+}
+
+.panel-button {
+	padding: 10px 10px;
+}
+
+.dd-item .panel-collapse {
+	position: relative;
+	top: -8px;
+	width: 100%;
+	border-radius: 3px;
+	background: #FAFAFA;
+	border: 1px solid #eee;
+}
+
+.panel-heading-sub {
+	.clearfix;
+	font-size: 22px;
+	padding: 15px 15px 0;
+	margin-top: 45px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #EEE;
+	padding-bottom: 16px;
+	padding-right: 0;
+
+
+	.panel-title {
+	    font-size: 20px!important;
+	    margin-top: 8px;
+	}
+}
+
+.item-level {
+	.clearfix;
+}
+
+.item-level-footer {
+	text-align: right;
+}

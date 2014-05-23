@@ -1,0 +1,25 @@
+th.column_header {
+	cursor:pointer;
+}
+
+th.column_header > a {
+	display:block;
+}
+
+
+th.sorting {
+	
+}
+th.sorting_asc {
+}
+
+th.sorting_desc {
+}
+
+.table-loader {
+	background: url('./images/loading.gif') center right no-repeat transparent;
+	display: block;
+	padding: 20px;
+	height: 100px;
+	width: 100px;
+}

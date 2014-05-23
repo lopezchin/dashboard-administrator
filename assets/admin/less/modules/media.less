@@ -1,0 +1,129 @@
+/*
+ * Media
+ *
+ */
+
+.media-attachments {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 10px;
+	.clearfix();
+	height: 600px;
+	margin-right: 20px;
+}
+
+
+.media__thumbnail {
+	position: relative;
+	min-height: 80px;
+	display: block;
+	background: #eee;
+	   
+	   img {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			max-width: 100%;
+	   }
+   }
+
+
+.media-attachment__title {
+	font-size: 18px;
+}
+
+// Attachment Details
+
+.media__attachment {
+	display: inline-block;
+	width: 15%;
+	margin: 5px;
+	padding: 0;
+	cursor: pointer;
+	overflow: hidden;
+
+	&.is-active {
+		.box-shadow(~"#559be2 0px 0px 0px 6px, 0 0 15px rgba(0,0,0,0.3)");
+	
+	}
+
+	@media (max-width: 1100px) {
+		width: 22%;
+	}
+
+	@media (max-width: 900px) {
+		width: 22%;
+	}
+}
+
+
+.media-attachment-details {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left: 1px solid #dfdfdf;
+	background: #f0f0f0;
+	color: #6d6d6d;
+	.clearfix();
+}
+
+// Info
+
+.media-attachment__info {
+	position: relative;
+	margin-bottom: 20px;
+	
+	img {
+		max-width: 100%;
+		min-height: 0;
+	}
+}
+
+.media-attachment__size {
+	display: block;
+	font-size: 12px;
+}
+
+.media-thumbnail--small {
+	width: 60px;
+}
+
+.media-attachment-title {
+	.text-overflow();
+}
+
+// Uploads
+
+.media-upload-drag-drop {
+	position: relative;
+	height: 300px;
+	border: 4px dashed #DDD;
+}
+
+.media-upload-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+	h3 {
+		color: #ACACAC;
+		text-align: center;
+		font-weight: 300;
+	}
+
+	span {
+		display: block;
+		font-size: 16px;
+	}
+}

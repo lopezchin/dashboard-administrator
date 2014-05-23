@@ -1,0 +1,377 @@
+/* This is the navbar panel.
+ * This is where you edit all navigations.
+ * Note: Overrides all css from the bootstrap
+ */
+
+@navbar-bg:            #fff;
+@navbar-active-color:  #172f39;
+
+.navbar-default {
+    min-width: 768px;
+    background: @navbar-bg;
+    border: 0;
+
+    .nav {
+        a {
+            color: #999;
+
+            &:focus,
+            &:hover {
+                color: #fff;
+                background: #0b0b0b;
+            }
+        }
+    }
+
+    .nav > .active {
+        > a {
+            background: #fff;
+            color: #171717;
+            
+            &:focus,
+            &:hover {
+                color: #171717;
+                background: #f6f6f6;
+            }
+        }
+    }
+    
+    .navbar-header {
+        float: left;
+    }
+    
+    .collapse {
+        display: block !important;
+        .box-shadow(none);
+        border: 0;
+    }
+
+    .navbar-nav {
+        float: right;
+        margin: 0;
+
+        .open > a {
+            background: #171717;
+            background-color: #171717;
+            color: #fff;
+            
+            &:focus,
+            &:hover {
+                color: #fff;
+                background: #0b0b0b;
+            }
+        }
+
+        .nav-icons {
+            padding-right: 15px;
+        }
+
+        .dropdown-toggle {
+            padding-right: 34px;
+            padding-left: 20px;
+        }
+
+        .dropdown > a {
+            
+            .caret {
+                border-top-color: #171717 !important;
+                border-bottom-color: #171717 !important;
+            }
+        }
+
+        > li {
+            float: left;
+            
+            > a {
+                padding-top: 17px;
+                padding-bottom: 17px;
+                
+                .transition(all .2s linear);
+            
+                color: #8a8b8e;
+                
+                &:hover {
+                    color: #FFF;
+                }
+            }
+        }
+    }
+
+    // Toggle
+
+    .navbar-toggle {
+        float: right;
+        border: 0;
+        .transition(background .2s linear);
+        outline: none;
+        
+        .icon-bar {
+            position: relative;
+            .transition(all .1s ease-in);
+        }
+        
+        &:hover {
+
+            .icon-bar {
+                &:first-child {
+                    top: -2px;
+                }
+
+                &:last-child {
+                    bottom: -2px;
+                }
+            }
+        }
+        
+        &:hover,
+        &:focus {
+
+
+            background-color: transparent;
+        }
+    }
+
+    .navbar-toggle--trigger {
+        background: #121418;
+        background-color: #121418;
+
+        &:hover,
+        &:focus {
+            background-color: #0b0d10;
+        }
+    }
+
+    .dropdown-menu {
+        width: 200px;
+        background: #171717;
+
+    }
+}
+
+.nav-icons {
+    font-size: 18px;
+    
+    &.nav-icons--alert > a {
+        background: none !important;
+    }
+
+    &.open {
+        .fa {
+            color: #67a7f6;
+        }
+    }
+}
+.dropdown-content {
+    padding: 4px 16px;
+    color: #666;
+}
+
+.navbar-inverse {
+    padding: 0 15px 0 0;
+}
+
+.navbar-views {
+    padding: 17px 56px;
+    
+    .fa {
+        margin-right: 5px;
+    }
+
+    a {
+        font-size: 10px;
+        color: #8c8e92;
+        text-transform: uppercase;
+        text-decoration: none;
+        .transition(color .2s linear);
+        
+        &:hover {
+            color: #c9c9c9;
+        }
+    }
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+
+.navbar-avatar {
+    a {
+        color: #fff;
+    }
+}
+
+
+.navbar-utilities {
+    margin: 0 0 0;
+
+    & > li {
+
+        & > a {
+        }
+
+    }
+
+    .fa {
+        font-size: 20px;
+        margin: 2px 0 0;
+    }
+}
+
+.navbar-avatar {
+
+    .fa-sort-asc {
+        margin-left: 6px;
+        font-size: 16px;
+        margin-top: 0;
+    }
+}
+
+
+
+.navbar-avatar-img {
+    float: right;
+    margin-right: 10px;
+
+    img {
+        width: 26px;
+        height: 26px;
+        margin: -8px 0 -5px;
+    }
+
+}
+
+.dropdown-menu--extended {
+    height: 240px;
+    min-width: 180px;
+    z-index: 11000;
+    overflow: auto;
+    
+    .dd-menu--extended__item {
+        display: block;
+        padding: 4px 10px;
+        border-top: 1px solid #eee;
+        
+        &:first-child {
+            border-top: 0;
+        }
+        
+        &:hover {
+            background: #f5f5f5;
+        }
+        
+        label {
+            cursor: pointer;
+            font-weight: 300;
+            font-size: 12px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    }
+}
+
+.dropdown-menu.extended li .blue {
+    padding: 10px;
+    background-color: #67a7f6;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+}
+
+.notify-row .badge {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 100;
+}
+
+.notify-arrow {
+    border-style: solid;
+    border-width: 0 9px 9px;
+    height: 0;
+    margin-top: 0;
+    opacity: 0;
+    position: absolute;
+    right: 10px;
+    top: -18px;
+    transition: all 0.25s ease 0s;
+    width: 0;
+    z-index: 10;
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.notify-arrow-blue {
+    border-color: transparent transparent #67a7f6;
+    border-bottom-color: #67a7f6 !important;
+    border-top-color: #67a7f6 !important;
+}
+
+.dropdown-menu.extended {
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    min-width: 160px !important;
+    top: 65px;
+    right: 4px;
+    width: 235px !important;
+    padding: 0 0 10px 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.176) !important;
+    border: none !important;
+    
+    li > a {
+        padding: 6px;
+        white-space: inherit;
+    }
+}
+
+
+.media-nav {
+    @media (min-width: 1200px) {
+        padding-right: 0;
+    }
+}
+
+.no-js {
+    .dropdown {
+        &:hover {
+            > .dropdown-menu {
+                display: block;
+            }
+        }
+    }
+
+    .sub-menu--extended {
+        &:hover {
+            > .sub {
+                display: block;
+            }
+        }
+    }
+}
+
+@media(max-width: 1100px) {
+    .navbar-toggle {
+        display: block;
+    }
+}
+.navbar-top {
+    color: #e6e6e6;
+    
+    a {
+        color: #e6e6e6;
+    }
+}
+
+
+.navbar-right{
+    
+    margin-top: 10px!important;
+
+    #admin-user{
+        margin-right: 10px;
+    } 
+}
+
+

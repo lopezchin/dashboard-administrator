@@ -1,0 +1,259 @@
+/*
+ * Box
+ *
+ */
+
+@box-title:        #a1a1a1;
+@counter-color:    #67a7f6;
+
+@teal:             #668896;
+.box {
+	display: block;
+	padding: 50px;
+	
+	.clearfix();
+}
+
+.box--flow-center {
+	text-align: center;
+}
+
+.box__title {
+	color: @box-title;
+	text-transform: uppercase;
+}
+
+.box__counter {
+	position: relative;
+	margin-bottom: 15px;
+	color: @counter-color;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+.box--white {
+	background: #fff;
+}
+
+.box__content {
+	position: relative;
+}
+
+.box__hr {
+	display: inline-block;
+	width: 38px;
+	height: 1px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.box--small {
+	min-height: 245px;
+	
+	.box__title {
+		font-size: 11px;
+	}
+
+	.box__hr {
+		position: relative;
+		top: -2px;
+		width: 28px;
+	}
+
+	.counter__icon {
+		font-size: 14px;
+		margin-left: -10px;
+	}
+
+	.counter__views {
+		font-size: 49px;
+	}
+}
+
+.box--teal {
+	.box__title {
+		color: @teal;
+	}
+
+	.box__counter {
+		color: @teal;
+	}
+
+	.counter__icon {
+		color: #838383;
+	}
+}
+
+.box--black {
+	.box__title {
+		color: #2c2f37;
+	}
+
+	.box__counter {
+		color: #2c2f37;
+	}
+
+	.counter__icon {
+		color: #2c2f37;
+	}
+}
+
+.box--menu {
+	padding: 45px;
+	height: 178px;
+
+
+	span {
+		display: block;
+		.transition(all .2s linear);
+	}
+
+	&:hover {
+		.box__icon {
+			margin-top: 4px;
+		}
+
+		span {
+			margin-top: -8px;
+		}
+	}
+}
+
+.box__icon {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 43px;
+	.transition(all .2s linear);
+
+
+}
+
+
+
+.box-l2 {
+	.clearfix;
+    .box-shadow(rgba(0, 0, 0, 0.06) 0 1px 2px);
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 0;
+
+	.box-detail-listing {
+	    border: 0;
+		border-radius: 3px;
+		padding: 18px;
+		background-color: transparent;
+	}
+
+	.box-heading {
+	    padding: 7px;
+	    background-color: #E4E4E4;
+	}
+
+	.box-title {
+		font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif!important;
+	    color: #707070;
+	    margin: 0;
+	    font-size: 23px;
+	    padding: 6px;
+	}
+
+	.bg-green {
+	    background: #1ab5b5;
+	}
+
+	.bg-red {
+	    background: #921313;
+	}
+
+	.bg-blue {
+	    background: #5A7ABA;
+	}
+
+	.table {
+		margin-bottom: 0;
+	}
+	.table > thead > tr > th {
+	    font-weight: bold;
+	    font-size: 12px!important;
+	    text-transform: uppercase;
+	}
+	.table > thead > tr > th {
+	    font-family: "Proxima Nova", Helvetica, Arial, sans-serif!important;
+	    font-size: 14px!important;
+	}
+
+	.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+	    /* font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif; */
+	    font-size: 15px;
+	    color: #686868;
+	}
+	.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+	    background-color: transparent;
+	    border: transparent;
+	    padding: 8px;
+	}
+	.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	    background-color: rgba(255, 255, 255, 0.86);
+	}
+	.table-footer {
+	    background: #fff;
+	    color: #000000;
+	    font-family: "Proxima Nova", Helvetica, Arial, sans-serif; font-size: 15px;
+	}
+	.list-actions > li:first-child a {
+	    padding-left: 0;
+	}
+	.table-footer tr th {
+	    padding: 9px!important;
+	    font-family: "Proxima Nova", Helvetica, Arial, sans-serif!important;
+	    font-size: 16px!important;
+	    color: #333!important;
+	}
+
+	.box-footer {
+	    margin: 15px 0;
+		color: #FFF;
+		padding: 12px 0 0;
+		border-top: 1px solid #E9E9E9;
+	}
+
+}
+
+.refund-l2 {
+	.clearfix;
+	background: #646464;
+	display: block;
+	padding: 22px 23px 23px;
+	border-radius: 0;
+	color: #FFF;
+	text-align: left;
+	border-radius: 3px;
+}
+.refund-title {
+    font-size: 12px;
+	text-transform: uppercase;
+	line-height: 1;
+	margin: 0;
+	margin-left: 3px;
+}
+.refund-price {
+	font-size: 45px;
+	font-weight: 200;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin: 10px 0 0;
+	display: block;
+}
+.refund-detail {
+	float: left;
+}
+.refund-action {
+	float: right;
+
+	.btn {
+		padding: 18px 28px;
+		border: 0;
+		margin-top: 10px;
+	}
+}

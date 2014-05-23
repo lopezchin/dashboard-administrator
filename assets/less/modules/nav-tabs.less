@@ -1,0 +1,163 @@
+/*
+ * Nav Tabs
+ */
+
+.nav-tabs {
+	a {
+		.transition(all .2s linear);
+	}
+}
+
+.nav-tabs--pretty {
+	border: 0;
+	background: #5f818d;
+	padding: 0 10px;
+	border-radius: 3px 3px 0 0;
+	
+	> li {
+		margin-bottom: 0;
+
+		&.active {
+			a {
+				color: #5f818d;
+				border: 0;
+			}
+		}
+
+		> a {
+			padding: 14px 26px;
+			margin-right: 0;
+			color: #fff;
+			font-size: 12px;
+			text-transform: uppercase;
+			border-radius: 0;
+			border: 0;
+
+			&:hover {
+				border: 0 !important;
+				background: #3d5f6b;
+			}
+
+			@media (max-width: 900px) {
+				padding-left: 14px;
+				padding-right: 14px;
+			}
+		}
+	}
+}
+
+.nav-tabs--block {
+
+	> li > a {
+		border-radius: 0;
+	}
+
+	@media (min-width: 1200px) {
+		margin: 20px 0 50px 0;
+		border: 0;
+
+		> li {
+			float: none;
+			margin-bottom: 0;
+			
+			> a {
+				margin: 0;
+				padding: 8px 20px;
+				border: 0;
+				.transition(background .2s linear);
+				
+				&:hover {
+					background: #eee;
+				}
+			}
+
+			&.active {
+				> a {
+					border: 0;
+					cursor: pointer;
+					background: #f4f4f4;
+					
+					&:hover {
+						border: 0;
+						background: #eee;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.tab-pane--stroke {
+	border-left: 1px solid #e5e5e5;
+}
+
+.media-tab {
+	@media (min-width: 1200px) {
+		padding-left: 0;
+	}
+	
+}
+
+.nav-tabs--widget {
+	padding: 8px 8px 0 8px;
+	
+	a {
+		color: #333
+	}
+}
+
+.nav-tabs {
+    border-bottom: 0;
+
+    > li {
+        &.active {
+            a {
+                background: #fff;
+                border-bottom-color: #fff;
+            }
+        }
+    }
+}
+
+.tab-content {
+    .box-shadow(rgba(0, 0, 0, 0.06) 0 1px 2px);
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    background: #FFF;
+}
+
+.nav-tab-l2 {
+    
+    padding-left: 20px;
+    border-bottom: 1px solid #C9C9C9;
+
+    > li {
+        > a {
+            color: #727272;
+            font-weight: 600;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin: 0;
+    
+            &:hover {
+                background-color: #ddd;            
+                border-color: #ddd;
+                border-bottom: 1px solid #C9C9C9;
+            }
+        }
+        &.active {
+            a {
+                background-color: #F5F5F5;
+                border-color: #C9C9C9;
+                border-bottom-color: #F5F5F5;
+                .box-shadow(#FFF 0 0 1px inset);
+
+                &:hover {
+                    background-color: #F5F5F5;
+                }
+            }
+        }
+    }
+}

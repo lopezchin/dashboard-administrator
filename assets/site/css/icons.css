@@ -1,0 +1,211 @@
+[class^="itp-"],
+.gytbo,
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.icon-sprite, .icon-benefits, .icon-calculator, .icon-completed-spaceman, .icon-envelope, .icon-flag-moon, .icon-icon-rocket, .icon-key, .icon-logo, .icon-logo2, .icon-logo3, .icon-moon, .icon-online, .icon-pricing, .icon-process, .icon-rocket, .icon-safe-web, .icon-satellite, .icon-space-path1, .icon-spaceman-completed, .icon-spaceman, .icon-why-web {
+  background-image: url('../i/icon-s0a28daff69.png');
+  background-repeat: no-repeat;
+}
+
+.icon-benefits {
+  background-position: 0 0;
+}
+
+.icon-calculator {
+  background-position: -49px 0;
+}
+
+.icon-completed-spaceman {
+  background-position: -94px 0;
+}
+
+.icon-envelope {
+  background-position: -149px 0;
+}
+
+.icon-flag-moon {
+  background-position: -168px 0;
+}
+
+.icon-icon-rocket {
+  background-position: -209px 0;
+}
+
+.icon-key {
+  background-position: -231px 0;
+}
+
+.icon-logo {
+  background-position: -249px 0;
+}
+
+.icon-logo2 {
+  background-position: -415px 0;
+}
+
+.icon-logo3 {
+  background-position: -581px 0;
+}
+
+.icon-moon {
+  background-position: -747px 0;
+}
+
+.icon-online {
+  background-position: -847px 0;
+}
+
+.icon-pricing {
+  background-position: -896px 0;
+}
+
+.icon-process {
+  background-position: -1124px 0;
+}
+
+.icon-rocket {
+  background-position: -1167px 0;
+}
+
+.icon-safe-web {
+  background-position: -1208px 0;
+}
+
+.icon-satellite {
+  background-position: -1262px 0;
+}
+
+.icon-space-path1 {
+  background-position: -1319px 0;
+}
+
+.icon-spaceman-completed {
+  background-position: -1508px 0;
+}
+
+.icon-spaceman {
+  background-position: -1563px 0;
+}
+
+.icon-why-web {
+  background-position: -1613px 0;
+}
+
+.brand {
+  width: 166px;
+  height: 51px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -374px no-repeat;
+}
+
+.brand2 {
+  width: 166px;
+  height: 51px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -435px no-repeat;
+}
+
+.brand3 {
+  width: 166px;
+  height: 35px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -496px no-repeat;
+}
+
+.process > a:after {
+  content: '';
+  display: block;
+  width: 179px;
+  height: 89px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -773px;
+}
+
+.icon-rocket {
+  width: 22px;
+  height: 22px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -314px;
+}
+
+.icon-pricing {
+  width: 50px;
+  height: 50px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -712px;
+}
+
+.icon-online {
+  width: 50px;
+  height: 50px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -651px;
+}
+
+.icon-safe-web {
+  width: 54px;
+  height: 50px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -967px;
+}
+
+.icon-calculator {
+  width: 45px;
+  height: 45px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -60px;
+}
+
+.icon-benefits {
+  width: 59px;
+  height: 50px;
+  background: url('../i/icon-sa158aa2f82.png') 0 0;
+}
+
+.icon-process {
+  width: 43px;
+  height: 43px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -872px;
+}
+
+.itp-rocket {
+  width: 41px;
+  height: 32px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -925px;
+}
+
+.itp-satellite {
+  width: 57px;
+  height: 59px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -1027px;
+}
+
+.itp-moon {
+  width: 100px;
+  height: 100px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -541px;
+}
+
+.itp-spaceman {
+  width: 50px;
+  height: 78px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -1295px;
+}
+
+.itp-spaceman-success {
+  width: 55px;
+  height: 99px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -1186px;
+}
+
+.itp-space-path-1 {
+  width: 189px;
+  height: 81px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -1096px;
+}
+
+.gytbo-email {
+  width: 19px;
+  height: 14px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -224px;
+}
+
+.gytbo-password {
+  width: 18px;
+  height: 18px;
+  background: url('../i/icon-sa158aa2f82.png') 0 -346px;
+}

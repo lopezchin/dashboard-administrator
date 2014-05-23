@@ -1,0 +1,2965 @@
+@charset "UTF-8";
+/*! 
+ * Theme: GYTBO
+ * Author: LightMedia
+ * Version: 1.5
+ * 
+ */
+/* line 8, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 17, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* line 22, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+body {
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+/* line 31, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+/* line 43, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+/* line 47, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+/* line 53, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/* line 61, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+img {
+  vertical-align: middle;
+}
+/* line 66, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* line 71, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+.img-rounded {
+  border-radius: 6px;
+}
+/* line 78, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+/* line 91, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+.img-circle {
+  border-radius: 50%;
+}
+/* line 98, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #e4e4e4;
+}
+/* line 110, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/scaffolding.less */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+@font-face {
+  font-family: 'Proxima Nova Thin';
+  src: url('../fonts/ProximaNova-thin.eot');
+  src: url('../fonts/proximanova-thin.eot') format('embedded-opentype'), url('../fonts/proximanova-thin.woff') format('woff'), url('../fonts/proximanova-thin.ttf') format('truetype'), url('../fonts/proximanova-thin.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Reg.eot');
+  src: url('../fonts/ProximaNova-Reg.eot') format('embedded-opentype'), url('../fonts/ProximaNova-Reg.woff') format('woff'), url('../fonts/ProximaNova-Reg.ttf') format('truetype'), url('../fonts/ProximaNova-Reg.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../fonts/ProximaNova-sbold.eot');
+  src: url('../fonts/ProximaNova-sbold.eot') format('embedded-opentype'), url('../fonts/ProximaNova-sbold.woff') format('woff'), url('../fonts/ProximaNova-sbold.ttf') format('truetype'), url('../fonts/ProximaNova-sbold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 39, /Users/Designer/Sites/gytbo/assets/site/less/theme/base.less */
+body {
+  color: #777;
+  background-color: #F7F7F7;
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/embbed.less */
+.embbed-iframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  background: #eeeeee url('http://www.australianagates.com.au/templates/protostar/assets/i/progress.gif?1373459200') center center no-repeat;
+}
+/* line 9, /Users/Designer/Sites/gytbo/assets/site/less/theme/embbed.less */
+.embbed-iframe iframe,
+.embbed-iframe object,
+.embbed-iframe embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 21, /Users/Designer/Sites/gytbo/assets/site/less/theme/embbed.less */
+.embbed-iframe-map {
+  padding-bottom: 90.25%;
+  margin-top: 25px;
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner {
+  position: relative;
+  background: #3385b5 url("../i/banner.jpg") center top no-repeat;
+  overflow: hidden;
+  color: #fff;
+  border-bottom: 1px solid #E4E4E4;
+}
+/* line 8, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner label {
+  color: #646464;
+  font-weight: 400;
+}
+/* line 15, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-box {
+  position: relative;
+  background: #FBFBFB;
+  max-width: 830px;
+  margin: 3.8em auto 0;
+  padding: 40px 18px 0;
+  border-radius: 5px 5px 0 0;
+  box-shadow: #595959 0 1px 5px;
+}
+/* line 24, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-box:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 2px solid #DDD;
+}
+/* line 39, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner {
+  position: relative;
+  border: 1px solid #DCDCDC;
+  border-bottom: 0;
+}
+/* line 44, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner .banner-bgblack {
+  position: absolute;
+  display: block;
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  text-align: center;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border: 0;
+}
+/* line 67, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner .banner-bgblack:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+/* line 74, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner .banner-bgblack:focus {
+  outline: none;
+}
+/* line 79, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner .banner-bgblack:hover .banner-play-btn {
+  background: #222;
+}
+/* line 83, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner .banner-bgblack:hover .banner-play-btn span {
+  border-left-color: #fff;
+}
+/* line 90, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner img {
+  max-width: 100%;
+}
+/* line 94, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-inner:hover .banner-bgblack {
+  background: rgba(0, 0, 0, 0.2);
+}
+/* line 99, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-heading {
+  text-align: center;
+  color: #fff;
+}
+/* line 103, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-heading p {
+  font-size: 18px;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+/* line 110, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .js-form-trigger {
+  text-align: center;
+}
+/* line 114, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-btn {
+  padding: 12px 40px 13px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 1.3em 0 0;
+}
+/* line 121, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-title {
+  font-size: 50px;
+  margin: 1.2em 0 8px;
+  color: #fff;
+}
+/* line 127, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-play-btn {
+  width: 90px;
+  height: 90px;
+  background: #2E2E2E;
+  display: block;
+  border-radius: 100%;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 101;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 144, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner .banner-play-btn span {
+  width: 0;
+  height: 0;
+  border-top: 18px solid rgba(0, 0, 0, 0);
+  border-left: 26px solid #DFDFDF;
+  border-bottom: 18px solid rgba(0, 0, 0, 0);
+  text-indent: -99999em;
+  display: block;
+  margin: 25px auto;
+  margin-left: 36px;
+}
+/* line 163, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-heading-l2 {
+  margin-bottom: 25px;
+}
+/* line 166, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-heading-l2 .title {
+  margin: 4px 0 10px!important;
+}
+/* line 171, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form {
+  display: none;
+  opacity: 0;
+  position: relative;
+  background: #fff;
+  padding: 3em 38px 2.85em;
+  border-radius: 4px;
+  max-width: 765px;
+  margin: 4em auto 5em;
+  box-shadow: rgba(0, 0, 0, 0.14) 0 0 0 4px;
+  z-index: 1;
+  color: #6D6D6D;
+}
+/* line 185, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form .title {
+  margin: 4px 0 38px;
+  font-size: 30px;
+  text-align: center;
+}
+/* line 191, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form .form-icon {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #efefef url("../i/door.png") center no-repeat;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  padding: 30px;
+  width: 70px;
+  height: 70px;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
+}
+/* line 209, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form .checkbox.pull-left {
+  margin: 0;
+}
+/* line 212, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form button.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 9px 14px;
+  background: rgba(255, 255, 255, 0) !important;
+  font-size: 31px;
+  outline: 0;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+}
+/* line 224, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form button.close:hover {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* line 232, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form-show {
+  display: block;
+  opacity: 1;
+}
+/* line 237, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-home {
+  background: #3385b5 url("../i/banner.jpg") center top no-repeat;
+}
+/* line 240, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-home .banner-form {
+  max-width: 470px;
+}
+/* line 253, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form-signup {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 4em;
+}
+/* line 260, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-l3 .banner-form {
+  max-width: 500px;
+  padding: 2.5em 60px 2.85em;
+}
+/* line 265, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-l3 .banner-form-footer {
+  margin: 2.2em -60px -40px;
+}
+/* line 269, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-l3 .banner-desc {
+  margin-top: 3em;
+  font-size: 18px;
+}
+/* line 273, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-l3 .banner-desc a {
+  color: #fff;
+}
+/* line 279, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form-footer {
+  margin: 0 -38px -40px;
+  background: #eee;
+  text-align: center;
+  padding: 14px 0;
+  margin-top: 28px;
+  border-radius: 0 0 6px 6px;
+}
+/* line 287, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-form-footer p {
+  margin: 0;
+}
+/* line 293, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-pattern {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  border-top: 1px solid #146792;
+  background: #3385b5 url("../i/pattern.png");
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.banner-pattern:before,
+.banner-pattern:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.banner-pattern:after {
+  clear: both;
+}
+/* line 304, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-process {
+  position: relative;
+  background: #252525 url(../i/process/stars.png) right center repeat;
+  min-height: 300px;
+  -webkit-animation: banner-process 50s infinite linear forwards;
+  animation: banner-process 50s infinite linear forwards;
+}
+/* line 310, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-process .itp-satellite {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: -515px;
+  margin: auto;
+}
+/* line 317, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-process .itp-rocket {
+  position: absolute;
+  top: 39%;
+  left: 27%;
+  -webkit-animation: itp-rocket 5s infinite;
+  animation: itp-rocket 5s infinite;
+}
+/* line 327, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-lg.form-group-vertical .form-control {
+  border: 1px solid #CFCFCF;
+  height: 50px;
+}
+/* line 334, /Users/Designer/Sites/gytbo/assets/site/less/theme/banner.less */
+.banner-page .banner-title {
+  font-size: 38px;
+  margin: 1.2em 0 25px;
+  color: #FFF;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn {
+  border-radius: 4px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  text-align: center;
+}
+/* line 6, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn .fa-spinner {
+  display: none;
+}
+/* line 11, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn.is-process .fa-spinner {
+  display: inline-block;
+}
+/* line 16, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn:focus {
+  outline: none;
+}
+/* line 21, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-default {
+  border-width: 2px;
+  color: #858585;
+}
+/* line 26, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-yellow {
+  background: #F6BF73;
+  color: #fff!important;
+}
+/* line 30, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-yellow:hover {
+  background: #f9c987;
+}
+/* line 34, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-yellow .progress-inner {
+  background: #f9c987;
+  opacity: 1;
+}
+/* line 42, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn .fa {
+  margin-right: 4px;
+}
+/* line 47, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-green {
+  background-color: #1ab5b5;
+  color: #fff;
+}
+/* line 51, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-green:hover {
+  background-color: #28CACA;
+  color: #fff;
+}
+/* line 57, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-rounded {
+  border-radius: 50px;
+}
+/* line 60, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-bordered {
+  border: 1px solid #D6D6D6;
+  color: #8F8F8F;
+}
+/* line 64, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-bordered:hover {
+  border-color: #C2C2C2;
+}
+/* line 69, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-sm {
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  padding: 5px 13px 3px;
+}
+/* line 75, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-teal {
+  background: #1ab5b5;
+  color: #fff!important;
+}
+/* line 79, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-teal:hover {
+  background: #179999;
+}
+/* line 84, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-orange {
+  background: #F5642E;
+  color: #fff!important;
+}
+/* line 88, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-orange:hover {
+  background: #f35c25;
+}
+/* line 93, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-primary {
+  background: #3082b2;
+}
+/* line 97, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-xlg {
+  padding: .8em 2em .8em;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+/* line 102, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-lg {
+  padding: .7em 2em;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/* line 109, /Users/Designer/Sites/gytbo/assets/site/less/theme/buttons.less */
+.btn-group .btn-default {
+  border-width: 1px;
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar {
+  margin-bottom: 0;
+  height: 75px;
+  box-shadow: #1E658E 0 4px 0 0;
+  border-radius: 0;
+  box-shadow: rgba(30, 101, 142, 0.38) 0 3px 0 0;
+  z-index: 9;
+}
+/* line 9, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar .navbar-header {
+  margin: -1px 0 0;
+}
+/* line 13, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar .btn-bordered {
+  border: 2px solid #C8C8C8;
+  border-radius: 4px!important;
+  padding: 7px 28px 8px;
+  margin: 17px 0 0;
+  margin-left: 14px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar .btn-bordered:hover {
+  border-color: #ADADAD;
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-main {
+  background-color: #fff;
+  z-index: 999;
+}
+/* line 31, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-nav > li > span,
+.navbar-nav > li > a {
+  display: block;
+  padding: 20px 22px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-size: 17px;
+  border-radius: 0;
+  color: #8B8B8B;
+  line-height: 20px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  text-transform: lowercase;
+}
+/* line 44, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-nav > li > span:hover,
+.navbar-nav > li > a:hover {
+  background-color: transparent;
+  color: #666;
+}
+/* line 58, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .btn-bordered {
+  float: left;
+  margin: 19px 0 0;
+  width: 100px;
+  font-size: 15px;
+}
+/* line 65, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .navbar-nav {
+  float: left;
+}
+/* line 68, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .navbar-nav > li > span,
+.navbar-right .navbar-nav > li > a {
+  font-size: 16px;
+}
+/* line 73, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .navbar-nav > li.user {
+  background-color: #F8F8F8;
+  border: solid #E2E2E2;
+  border-width: 0 1px;
+}
+/* line 81, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .navbar-collapse {
+  padding: 0!important;
+}
+/* line 85, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .dropdown-menu {
+  width: 200px;
+  border-radius: 3px;
+  margin-top: -10px;
+}
+/* line 92, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .dropdown-menu > li > a:hover,
+.navbar-right .dropdown-menu > li > a:focus {
+  background: #3385b5;
+  color: #fff;
+}
+/* line 96, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .dropdown-menu:after {
+  content: '';
+  display: inline-block;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #DDD;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: -9px;
+  right: 16px;
+}
+/* line 108, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-right .dropdown-menu:before {
+  content: '';
+  display: inline-block;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #b1b1b1;
+  position: absolute;
+  top: -10px;
+  right: 16px;
+}
+/* line 121, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-brand-dark {
+  display: block;
+  margin: auto;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+/* line 126, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-brand {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  margin-top: 14px;
+}
+/* line 134, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .btn-bordered {
+  margin-top: 0;
+  padding: 7px 14px 8px;
+}
+/* line 142, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-right .navbar-nav > li a,
+.navbar-l2 .navbar-right .navbar-nav > li span {
+  font-size: 15px;
+  padding-left: 12px;
+  padding-right: 14px;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+}
+/* line 150, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-right .navbar-nav .user {
+  background: rgba(0, 0, 0, 0.02);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 155, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-right .navbar-nav .user a {
+  font-family: "Proxima Nova Bold", Helvetica, Arial, sans-serif;
+  padding-right: 0;
+}
+/* line 167, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-default {
+  background-color: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 1px 2px;
+  border-bottom: 1px solid #DFDFDF;
+}
+/* line 172, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-default .navbar-header {
+  background-color: transparent;
+  width: 200px;
+  height: 75px;
+}
+/* line 178, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-default .navbar-header .brand {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 188, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-default .nav .open > a,
+.navbar-default .nav .open > a:hover,
+.navbar-default .nav .open > a:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #428BCA;
+  outline: none;
+  text-decoration: none;
+}
+/* line 196, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-green {
+  background-color: #1ab5b5;
+}
+/* line 199, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-green .navbar-nav > li > span,
+.navbar-green .navbar-nav > li > a,
+.navbar-green .navbar-nav > li > span a {
+  color: rgba(255, 255, 255, 0.93);
+}
+/* line 203, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-green .navbar-nav > li > span:hover,
+.navbar-green .navbar-nav > li > a:hover,
+.navbar-green .navbar-nav > li > span a:hover {
+  color: #fff;
+}
+/* line 208, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-green .navbar-header {
+  background-color: #FFF;
+  width: 289px;
+  height: 77px;
+  box-shadow: #ffffff -172px 0 0 0, #ffffff -340px 0 0 0, #ffffff -500px 0 0 0;
+}
+/* line 218, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .container {
+  position: relative;
+}
+/* line 221, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-header {
+  float: none;
+  text-align: center;
+}
+/* line 225, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-brand {
+  float: none;
+  width: 162px;
+  display: inline-block;
+  margin-left: 0!important;
+}
+/* line 231, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-right,
+.navbar-l2 .navbar-left {
+  position: absolute;
+  margin-top: 20px;
+}
+/* line 236, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-right ul,
+.navbar-l2 .navbar-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 242, /Users/Designer/Sites/gytbo/assets/site/less/theme/navbar.less */
+.navbar-l2 .navbar-right {
+  right: 0;
+  top: 0;
+}
+/* line 2, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+/* line 7, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .modal-content {
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  background: #1B1B1B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 19, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .close {
+  text-shadow: none;
+  font-size: 50px;
+  color: #FFF;
+  margin: 15px 25px;
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .close:focus {
+  outline: none;
+}
+/* line 29, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .modal-body {
+  max-width: 875px;
+  margin: auto;
+}
+/* line 34, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .brand.navbar-brand {
+  float: none;
+  display: block;
+  text-align: center;
+  margin: 0 auto 0!important;
+}
+/* line 40, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .modal-video-wrap {
+  margin-top: 3em;
+}
+/* line 43, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-l2 .modal-body {
+  padding-top: 4em;
+}
+/* line 48, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-video-wrap {
+  position: relative;
+  padding-bottom: 53.25%;
+  padding-top: 25px;
+  height: 0;
+}
+/* line 54, /Users/Designer/Sites/gytbo/assets/site/less/theme/modal.less */
+.modal-video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/utilities.less */
+.mb-12em {
+  margin-bottom: 12em;
+}
+/* line 5, /Users/Designer/Sites/gytbo/assets/site/less/theme/utilities.less */
+.mt-20px {
+  margin-top: 20px!important;
+}
+/* line 8, /Users/Designer/Sites/gytbo/assets/site/less/theme/utilities.less */
+.mt-10px {
+  margin-top: 10px!important;
+}
+/* line 11, /Users/Designer/Sites/gytbo/assets/site/less/theme/utilities.less */
+.mt-60px {
+  margin-top: 60px!important;
+}
+/* line 15, /Users/Designer/Sites/gytbo/assets/site/less/theme/utilities.less */
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+/* line 23, /Users/Designer/Sites/gytbo/assets/site/less/theme/utilities.less */
+.truncate-sm {
+  width: 100px;
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.main-content {
+  margin-top: 2.5em;
+  margin-bottom: 5.5em;
+}
+/* line 5, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.main-content .t-content {
+  padding-right: 2.5em;
+}
+/* line 13, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.t-content-inner {
+  padding-bottom: 9em;
+}
+/* line 18, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.container-l2 .t-sidebar {
+  position: relative;
+  width: 375px;
+  margin-left: -375px;
+  float: right;
+  border-left: 1px solid #E6E6E6;
+  padding-left: 25px;
+  background-color: #fff;
+  box-shadow: #fff 172px 0 0 0, #fff 340px 0 0 0, #fff 500px 0 0 0;
+  min-height: 964px;
+}
+/* line 30, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.container-l2 .t-content {
+  padding-right: 400px;
+  float: left;
+  width: 100%;
+}
+/* line 39, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.heading-l2 {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+/* line 43, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.heading-l2 h1 {
+  margin: 0;
+  padding: 0 0 0;
+  margin-bottom: 28px;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+}
+/* line 51, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.heading-l2 p {
+  font-size: 16px;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+}
+/* line 59, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.heading-l3 {
+  margin-top: 3em;
+  margin-bottom: 3.2em;
+}
+/* line 63, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.heading-l3 h1 {
+  margin: 0;
+  padding: 0 0 8px;
+  margin-bottom: 12px;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  font-size: 46px;
+}
+/* line 71, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.tooltip2 {
+  font-size: 16px;
+}
+/* line 74, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.tooltip2:hover {
+  color: #222;
+}
+/* line 81, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.section-l8,
+.section-l9 {
+  padding: 0;
+}
+/* line 85, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.section-l8 .section-heading,
+.section-l9 .section-heading {
+  margin: 0 0 24px;
+}
+/* line 88, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.section-l8 .section-heading h3,
+.section-l9 .section-heading h3 {
+  margin: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 18px;
+  color: #3082B3;
+}
+/* line 96, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.section-l8 .section-heading .btn,
+.section-l9 .section-heading .btn {
+  margin-bottom: 5px;
+  float: right;
+  border: 1px solid #C0C0C0;
+}
+/* line 102, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.section-l8 .section-heading .tooltip2,
+.section-l9 .section-heading .tooltip2 {
+  margin: 0 6px 1px;
+  position: relative;
+  top: -3px;
+}
+/* line 110, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.section-l9 {
+  border-bottom: 1px solid #DFDFDF;
+  padding-bottom: .5em;
+  margin-bottom: 1.8em;
+}
+/* line 118, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.tab-pane .section-heading {
+  margin: 34px 0 28px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.layout-l4:before,
+.layout-l4:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.layout-l4:after {
+  clear: both;
+}
+/* line 128, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l4 .layout-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  margin: 5px 0;
+}
+/* line 135, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l4 .layout-heading {
+  margin-bottom: 12px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.layout-l4 .layout-heading:before,
+.layout-l4 .layout-heading:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.layout-l4 .layout-heading:after {
+  clear: both;
+}
+/* line 141, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l4 .layout-heading .layout-title {
+  float: left;
+}
+/* line 144, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l4 .layout-heading .btn {
+  float: right;
+}
+/* line 150, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l5 {
+  margin: 2.5em 0 1em;
+}
+/* line 153, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l5 .label {
+  padding: 10px 18px;
+  margin: 3px 0;
+  display: inline-block;
+}
+/* line 161, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-detail-listing {
+  background: #fff;
+  border: 1px solid #D8D8D8;
+  border-radius: 3px;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 169, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-circle {
+  width: 230px;
+  height: 230px;
+  display: block;
+  border-radius: 100%;
+  background: #5a7aba;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  padding: 5em 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 4px;
+}
+/* line 181, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-circle .title {
+  font-size: 46px;
+  display: block;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+/* line 188, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-circle .label {
+  display: block;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+/* line 200, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l3 {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 22px;
+  padding-bottom: 12px;
+  margin-top: -153px;
+}
+/* line 206, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l3 .layout-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0 0 1em;
+  color: #eee;
+}
+/* line 215, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l3.l3-2 {
+  margin-top: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+/* line 221, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l3 .label-control {
+  margin: 25px 0 10px;
+}
+/* line 224, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l3 .form-group {
+  margin-bottom: 26px;
+}
+/* line 227, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l3 .label-success {
+  border-radius: 30px;
+  padding: 8px 18px;
+}
+/* line 232, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.layout-l3 .layout-circle {
+  margin-bottom: 20px;
+}
+/* line 237, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-detail-item {
+  padding: 15px 18px 12px;
+  border-bottom: 1px solid #E7E7E7;
+}
+/* line 241, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-detail-item .utility-actions {
+  float: right;
+  margin: -9px -8px;
+  display: none;
+}
+/* line 246, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-detail-item .utility-actions li {
+  display: inline-block;
+  padding: 0 3px;
+}
+/* line 254, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-detail-item:hover .utility-actions {
+  display: block;
+}
+/* line 259, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.detail-group {
+  margin-top: 12px;
+}
+/* line 262, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.detail-group:nth-child(2) {
+  margin-top: 0;
+}
+/* line 266, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.detail-group label {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.1;
+}
+/* line 276, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.detail-group .detail-value {
+  font-size: 20px;
+  display: block;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+}
+/* line 284, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.06) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 1px 2px;
+  border-radius: 3px;
+  border: 1px solid #DBDBDB;
+  background: #fff;
+  margin-bottom: 8px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.box-l2:before,
+.box-l2:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.box-l2:after {
+  clear: both;
+}
+/* line 292, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .box-detail-listing {
+  border: 0;
+  border-radius: 3px;
+  padding: 18px;
+  background-color: transparent;
+}
+/* line 299, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .box-heading {
+  padding: 7px;
+  background-color: #E4E4E4;
+}
+/* line 304, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .box-title {
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif !important;
+  color: #707070;
+  margin: 0;
+  font-size: 23px;
+  padding: 6px;
+}
+/* line 312, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .bg-green {
+  background: #1ab5b5;
+}
+/* line 316, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .bg-red {
+  background: #921313;
+}
+/* line 320, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .bg-blue {
+  background: #5A7ABA;
+}
+/* line 324, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table {
+  margin-bottom: 0;
+}
+/* line 327, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table > thead > tr > th {
+  font-weight: bold;
+  font-size: 12px!important;
+  text-transform: uppercase;
+}
+/* line 332, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table > thead > tr > th {
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif !important;
+  font-size: 14px!important;
+}
+/* line 337, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table > thead > tr > th,
+.box-l2 .table > thead > tr > td,
+.box-l2 .table > tbody > tr > th,
+.box-l2 .table > tbody > tr > td,
+.box-l2 .table > tfoot > tr > th,
+.box-l2 .table > tfoot > tr > td {
+  /* font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif; */
+  font-size: 15px;
+  color: #686868;
+}
+/* line 342, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table > thead > tr > th,
+.box-l2 .table > thead > tr > td,
+.box-l2 .table > tbody > tr > th,
+.box-l2 .table > tbody > tr > td,
+.box-l2 .table > tfoot > tr > th,
+.box-l2 .table > tfoot > tr > td {
+  background-color: transparent;
+  border: transparent;
+  padding: 8px;
+}
+/* line 347, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table-hover > tbody > tr:hover > td,
+.box-l2 .table-hover > tbody > tr:hover > th {
+  background-color: rgba(255, 255, 255, 0.86);
+}
+/* line 350, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table-footer {
+  background: #fff;
+  color: #000000;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+/* line 355, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .list-actions > li:first-child a {
+  padding-left: 0;
+}
+/* line 358, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .table-footer tr th {
+  padding: 9px!important;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif !important;
+  font-size: 16px!important;
+  color: #333!important;
+}
+/* line 365, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.box-l2 .box-footer {
+  margin: 15px 0;
+  color: #FFF;
+  padding: 12px 0 0;
+  border-top: 1px solid #E9E9E9;
+}
+/* line 374, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.total-row {
+  color: #555;
+  font-size: 22px;
+  margin: 9px 0;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif !important;
+}
+/* line 380, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.total-title {
+  width: 300px;
+  display: inline-block;
+  color: #6D6D6D;
+}
+/* line 386, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.total-price {
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif !important;
+}
+/* line 393, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.edit_quick_action {
+  font-size: 16px;
+}
+/* line 398, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.refund-l2 {
+  background: #646464;
+  display: block;
+  padding: 22px 23px 23px;
+  border-radius: 0;
+  color: #FFF;
+  text-align: left;
+  border-radius: 3px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.refund-l2:before,
+.refund-l2:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.refund-l2:after {
+  clear: both;
+}
+/* line 408, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.refund-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+  margin-left: 3px;
+}
+/* line 415, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.refund-price {
+  font-size: 52px;
+  font-family: 'Proxima Nova Thin';
+  letter-spacing: -1px;
+  line-height: 1;
+  margin: 10px 0 0;
+  display: block;
+}
+/* line 423, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.refund-detail {
+  float: left;
+}
+/* line 426, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.refund-action {
+  float: right;
+}
+/* line 429, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.refund-action .btn {
+  padding: 18px 28px;
+  border: 0;
+  margin-top: 10px;
+}
+/* line 435, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.is-animated {
+  -webkit-animation: form-animated 0.5s forwards;
+  -moz-animation: form-animated 0.5s forwards;
+  animation: form-animated 0.5s forwards;
+}
+@-webkit-keyframes form-animated {
+  /* line 442, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+  0% {
+    opacity: 0;
+    top: 60px;
+  }
+  /* line 443, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+@-moz-keyframes form-animated {
+  /* line 447, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+  0% {
+    opacity: 0;
+    top: 60px;
+  }
+  /* line 448, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+@keyframes form-animated {
+  /* line 452, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+  0% {
+    opacity: 0;
+    top: 60px;
+  }
+  /* line 453, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+/* line 459, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.tab-content {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.06) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 1px 2px;
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid #DBDBDB;
+  background: #fff;
+}
+/* line 466, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.tab-content .form-fieldset .form-item {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #ddd;
+}
+/* line 473, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.nav-tabs .fa {
+  margin-left: 40px;
+}
+/* line 479, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.tab-pane {
+  padding-bottom: .6em;
+}
+/* line 481, /Users/Designer/Sites/gytbo/assets/site/less/theme/app.less */
+.tab-pane .form-group-actions {
+  margin-top: 4.4em;
+  margin-left: -20px;
+  margin-bottom: -7em;
+}
+/* line 2, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process {
+  position: relative;
+  width: 25%;
+  display: block;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: -6px;
+  border-radius: 100%;
+}
+/* line 13, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process .itp-space-path {
+  position: absolute;
+  top: -95px;
+  left: 114px;
+}
+/* line 19, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process .fa {
+  margin-top: 5px;
+  display: none;
+}
+/* line 24, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process > a {
+  color: #ADADAD;
+  text-decoration: none;
+}
+/* line 28, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process > a:after {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5px;
+  z-index: -1;
+  margin: auto;
+}
+/* line 38, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process > a > * {
+  display: block;
+}
+/* line 45, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-indicator {
+  position: absolute;
+  top: -116px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-animation: process-indicator 0.8s infinite ease-in-out alternate;
+  animation: process-indicator 0.8s infinite ease-in-out alternate;
+}
+/* line 53, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-indicator-5 {
+  position: absolute;
+  top: -220px;
+  left: 90px;
+  z-index: 1;
+}
+/* line 59, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-mark {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  display: block;
+  background: #9C9C9C;
+  border-radius: 100%;
+  margin: 0 auto 14px;
+  box-shadow: #FFF 0 0 0 2px;
+  z-index: 3;
+}
+/* line 70, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-mark .icon-rocket {
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 77, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-illustration {
+  margin-left: -28px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.process-illustration:before,
+.process-illustration:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.process-illustration:after {
+  clear: both;
+}
+/* line 81, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-indicator-finished {
+  position: absolute;
+  top: -154px;
+  left: 0;
+  right: 0;
+}
+/* line 87, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-indicator-msg {
+  background: #fff;
+  border-radius: 4px;
+  padding: 6px 8px 8px;
+  text-transform: none;
+  width: 116px;
+  position: absolute;
+  top: -81px;
+  right: -30px;
+}
+/* line 97, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-indicator-msg p {
+  margin: 0;
+}
+/* line 101, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-indicator-msg:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 2px solid rgba(0, 0, 0, 0);
+  border-right: 13px solid rgba(0, 0, 0, 0);
+  border-top: 19px solid #FFF;
+  margin: 20px 0 0 30px;
+  position: absolute;
+  bottom: -19px;
+  left: -9px;
+}
+/* line 120, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-1-active .process-1 .process-mark {
+  width: 38px;
+  height: 38px;
+  padding-top: 9px;
+  margin-top: -11px;
+}
+/* line 126, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-1-active .process-1 .process-mark .icon-rocket {
+  display: block;
+}
+/* line 131, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-1-active .process-1 > a {
+  color: #5a7aba;
+}
+/* line 134, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-1-active .process-1 > a:after {
+  display: block;
+}
+/* line 139, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-1-active .process-1 .process-mark {
+  background-color: #5a7aba;
+}
+/* line 147, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-1 .fa-check {
+  display: block;
+}
+/* line 154, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-1 > a {
+  color: #5a7aba;
+}
+/* line 158, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-1 .process-mark {
+  background-color: #5a7aba;
+}
+/* line 165, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-2 .process-mark {
+  width: 38px;
+  height: 38px;
+  padding-top: 9px;
+  margin-top: -11px;
+}
+/* line 171, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-2 .process-mark .icon-rocket {
+  display: block;
+}
+/* line 176, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-2 > a {
+  color: #1ab5b5;
+}
+/* line 180, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-2 > a:after {
+  display: block;
+}
+/* line 185, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-2-active .process-2 .process-mark {
+  background-color: #1ab5b5;
+}
+/* line 193, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-1 .itp-space-path {
+  background: url(../i/process/path-replace.png) 0 0 no-repeat;
+  width: 228px;
+  top: -64px;
+}
+/* line 201, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-1 .fa-check,
+.process-3-active .process-2 .fa-check {
+  display: block;
+}
+/* line 209, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-5 .itp-space-path,
+.process-3-active .process-3 .itp-space-path,
+.process-3-active .process-4 .itp-space-path {
+  display: none;
+}
+/* line 217, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-5 .process-indicator,
+.process-3-active .process-4 .process-indicator,
+.process-3-active .process-1 .process-indicator,
+.process-3-active .process-2 .process-indicator {
+  display: none;
+}
+/* line 223, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-1 > a {
+  color: #5a7aba;
+}
+/* line 227, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-1 .process-mark {
+  background-color: #5a7aba;
+}
+/* line 233, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-2 > a {
+  color: #1ab5b5;
+}
+/* line 237, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-2 .process-mark {
+  background-color: #1ab5b5;
+}
+/* line 244, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-3 .process-mark {
+  width: 38px;
+  height: 38px;
+  padding-top: 9px;
+  margin-top: -11px;
+}
+/* line 250, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-3 .process-mark .icon-rocket {
+  display: block;
+}
+/* line 255, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-3 > a {
+  color: #921313;
+}
+/* line 259, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-3 > a:after {
+  display: block;
+}
+/* line 264, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-3-active .process-3 .process-mark {
+  background-color: #921313;
+}
+/* line 274, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-1 .itp-space-path,
+.process-4-active .process-2 .itp-space-path {
+  background: url(../i/process/path-replace.png) 0 0 no-repeat;
+  width: 228px;
+  top: -64px;
+}
+/* line 283, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-1 .fa-check,
+.process-4-active .process-2 .fa-check,
+.process-4-active .process-3 .fa-check {
+  display: block;
+}
+/* line 290, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-5 .itp-space-path,
+.process-4-active .process-4 .itp-space-path {
+  display: none;
+}
+/* line 298, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-5 .process-indicator,
+.process-4-active .process-3 .process-indicator,
+.process-4-active .process-1 .process-indicator,
+.process-4-active .process-2 .process-indicator {
+  display: none;
+}
+/* line 304, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-1 > a {
+  color: #5a7aba;
+}
+/* line 308, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-1 .process-mark {
+  background-color: #5a7aba;
+}
+/* line 314, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-2 > a {
+  color: #1ab5b5;
+}
+/* line 318, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-2 .process-mark {
+  background-color: #1ab5b5;
+}
+/* line 325, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-3 > a {
+  color: #921313;
+}
+/* line 329, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-3 .process-mark {
+  background-color: #921313;
+}
+/* line 336, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-4 .process-mark {
+  width: 38px;
+  height: 38px;
+  padding-top: 9px;
+  margin-top: -11px;
+}
+/* line 342, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-4 .process-mark .icon-rocket {
+  display: block;
+}
+/* line 347, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-4 > a {
+  color: #f35c25;
+}
+/* line 351, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-4 > a:after {
+  display: block;
+}
+/* line 356, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-4-active .process-4 .process-mark {
+  background-color: #f35c25;
+}
+/* line 365, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-1 .itp-space-path,
+.process-5-active .process-2 .itp-space-path {
+  background: url(../i/process/path-replace.png) 0 0 no-repeat;
+  width: 228px;
+  top: -64px;
+}
+/* line 375, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-1 .fa-check,
+.process-5-active .process-2 .fa-check,
+.process-5-active .process-4 .fa-check,
+.process-5-active .process-3 .fa-check {
+  display: block;
+}
+/* line 382, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 .itp-space-path,
+.process-5-active .process-4 .itp-space-path {
+  display: none;
+}
+/* line 390, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-3 .process-indicator,
+.process-5-active .process-1 .process-indicator,
+.process-5-active .process-2 .process-indicator {
+  display: none;
+}
+/* line 396, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-1 > a {
+  color: #5a7aba;
+}
+/* line 400, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-1 .process-mark {
+  background-color: #5a7aba;
+}
+/* line 406, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-2 > a {
+  color: #1ab5b5;
+}
+/* line 410, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-2 .process-mark {
+  background-color: #1ab5b5;
+}
+/* line 417, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-3 > a {
+  color: #921313;
+}
+/* line 421, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-3 .process-mark {
+  background-color: #921313;
+}
+/* line 427, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-4 > a {
+  color: #f35c25;
+}
+/* line 431, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-4 .process-mark {
+  background-color: #f35c25;
+}
+/* line 437, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 .process-mark {
+  width: 38px;
+  height: 38px;
+  padding-top: 9px;
+  margin-top: -11px;
+}
+/* line 443, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 .process-mark .icon-rocket {
+  display: block;
+}
+/* line 448, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 > a {
+  color: #f9c987;
+}
+/* line 452, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 > a:after {
+  display: block;
+}
+/* line 457, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 .process-mark {
+  background-color: #f9c987;
+}
+/* line 461, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 .process-indicator {
+  left: -200px;
+}
+/* line 465, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 .itp-spaceman {
+  top: -79px !important;
+  position: relative;
+}
+/* line 470, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.process-5-active .process-5 .process-indicator-msg {
+  display: none;
+}
+/* line 477, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .banner-process {
+  -webkit-animation: none;
+  animation: none;
+  background: #3385b5 url("../i/banner.jpg") center top no-repeat;
+  min-height: 100px;
+}
+/* line 484, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .form-control[disabled],
+.body-tax-not-in-progress .form-control[readonly],
+.body-tax-not-in-progress fieldset[disabled] .form-control {
+  background: #fff;
+  border-color: #E7E7E3;
+  cursor: auto;
+}
+/* line 489, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .btn-group .btn-default {
+  border-color: #E7E7E3;
+}
+/* line 499, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .process-5 .process-indicator,
+.body-tax-not-in-progress .process-4 .process-indicator,
+.body-tax-not-in-progress .process-3 .process-indicator,
+.body-tax-not-in-progress .process-2 .process-indicator,
+.body-tax-not-in-progress .process-1 .process-indicator {
+  display: none;
+}
+/* line 504, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .itp-moon,
+.body-tax-not-in-progress .itp-satellite,
+.body-tax-not-in-progress .itp-rocket {
+  display: none;
+}
+/* line 510, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .layout-l3 {
+  margin-top: 20px;
+}
+/* line 514, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .layout-l3 .layout-title {
+  color: #333;
+}
+/* line 518, /Users/Designer/Sites/gytbo/assets/site/less/theme/process.less */
+.body-tax-not-in-progress .remove_form_item {
+  display: none;
+}
+@-webkit-keyframes process-indicator {
+  /* line 2, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: -116px;
+  }
+  /* line 3, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -105px;
+  }
+}
+@-moz-keyframes process-indicator {
+  /* line 7, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: -116px;
+  }
+  /* line 8, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -105px;
+  }
+}
+@-o-keyframes process-indicator {
+  /* line 12, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: -116px;
+  }
+  /* line 13, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -105px;
+  }
+}
+@keyframes process-indicator {
+  /* line 17, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: -116px;
+  }
+  /* line 18, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -105px;
+  }
+}
+@-webkit-keyframes itp-rocket {
+  /* line 22, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: 110%;
+    left: 10%;
+  }
+  /* line 24, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  50% {
+    top: 40%;
+    left: 30%;
+  }
+  /* line 26, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -500%;
+    left: 200%;
+  }
+}
+@-moz-keyframes itp-rocket {
+  /* line 32, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: 110%;
+    left: 10%;
+  }
+  /* line 34, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  50% {
+    top: 40%;
+    left: 30%;
+  }
+  /* line 36, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -500%;
+    left: 200%;
+  }
+}
+@-o-keyframes itp-rocket {
+  /* line 42, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: 110%;
+    left: 10%;
+  }
+  /* line 44, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  50% {
+    top: 40%;
+    left: 30%;
+  }
+  /* line 46, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -500%;
+    left: 200%;
+  }
+}
+@keyframes itp-rocket {
+  /* line 52, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    top: 110%;
+    left: 10%;
+  }
+  /* line 54, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  50% {
+    top: 40%;
+    left: 30%;
+  }
+  /* line 56, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    top: -500%;
+    left: 200%;
+  }
+}
+@-webkit-keyframes banner-process {
+  /* line 62, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  0% {
+    background-position: right center;
+  }
+  /* line 66, /Users/Designer/Sites/gytbo/assets/site/less/theme/keyframes.less */
+  100% {
+    background-position: -1000px center;
+  }
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-l5 {
+  position: relative;
+  border: solid #E9E9E9;
+  border-width: 0px 0 1px;
+  padding: 3em 1em 0;
+  min-height: 200px;
+}
+/* line 9, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-l6 {
+  position: relative;
+  border: solid #DADADA;
+  border-width: 0px 0 1px;
+  padding: 3em 0;
+  min-height: 200px;
+}
+/* line 17, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-l7 {
+  position: relative;
+  padding: 3em 0 0;
+  min-height: 200px;
+}
+/* line 23, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-l7 .l2-2 h1 {
+  border-bottom: 0;
+}
+/* line 28, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-l7 .section-footer {
+  padding: 0;
+  text-align: none;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.section-l7 .section-footer:before,
+.section-l7 .section-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.section-l7 .section-footer:after {
+  clear: both;
+}
+/* line 35, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-footer {
+  padding: 3em  0 4em;
+  text-align: center;
+  max-width: 1124px;
+  width: 100%;
+}
+/* line 48, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-col2 .col-item {
+  padding: 10px 0;
+}
+/* line 50, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.section-col2 .col-item:first-child {
+  border: solid #E9E9E9;
+  border-width: 0px 1px 0px 0;
+}
+/* line 57, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.page-heading {
+  color: #FFF;
+  background: #3385b5 url("../i/banner.jpg") center bottom no-repeat;
+  padding: 20px 0;
+}
+/* line 62, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.page-heading h1 {
+  margin: 1em 0 .6em;
+}
+/* line 67, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.list-inline,
+.list-stacked {
+  list-style: none;
+}
+/* line 71, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.list-check {
+  padding: 0;
+}
+/* line 74, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.list-check li {
+  padding: 0 0 0 25px;
+  background: url("../i/list-check.png") 0 center no-repeat;
+  margin: 0 0 10px 0;
+  color: #5f5f5f;
+  letter-spacing: 1px;
+}
+/* line 82, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-tagline {
+  text-align: center;
+  color: #939393;
+}
+/* line 86, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-price {
+  color: #595959;
+  text-align: center;
+}
+/* line 89, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-price h1 {
+  margin-bottom: 0;
+  font-family: "Proxima Nova Thin", Helvetica, Arial, sans-serif;
+  font-size: 46px;
+  margin: 0 0 4px;
+}
+/* line 95, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-price span {
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* line 100, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-price span:before {
+  content: '-';
+  margin-right: 8px;
+}
+/* line 104, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-price span:after {
+  content: '-';
+  margin-left: 8px;
+}
+/* line 114, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options .radio {
+  text-align: center;
+}
+/* line 117, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options input[type=radio] {
+  display: none;
+}
+/* line 121, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options input[type=radio] + .checkbox-img {
+  cursor: pointer;
+  border: 2px solid #e7e7e7;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  background: #f8f8f8;
+  height: 145px;
+  border-radius: 4px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.payment-options input[type=radio] + .checkbox-img:before,
+.payment-options input[type=radio] + .checkbox-img:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.payment-options input[type=radio] + .checkbox-img:after {
+  clear: both;
+}
+/* line 133, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options input[type=radio] + .checkbox-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 144, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options input[type=radio]:checked + .checkbox-img {
+  border: 3px solid #3d9bd2;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 150, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options input[type=radio]:checked + .checkbox-img:after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: -12px;
+  background: url("../i/list-check-white.png") #3d9bd2 center no-repeat;
+  padding: 13px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid #f8f8f8;
+}
+/* line 164, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options input[type=radio] ~ p {
+  color: #b9b9b9;
+}
+/* line 167, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.payment-options input[type=radio]:checked ~ p {
+  color: #939393;
+}
+/* line 173, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.nav-tabs {
+  border-bottom: 0;
+}
+/* line 176, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.nav-tabs li {
+  padding: 0 2px;
+}
+/* line 180, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.nav-tabs li.active a {
+  border-color: #D6D6D6;
+  color: #000000;
+  border-bottom-color: rgba(0, 0, 0, 0);
+}
+/* line 188, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.nav-tabs li a {
+  color: #747474;
+  text-transform: uppercase;
+  padding: 10px 26px;
+}
+/* line 193, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.nav-tabs li a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+/* line 198, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.nav-tabs li a .fa {
+  margin-right: 4px;
+}
+/* line 207, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.tab-control li {
+  padding: 0 10px;
+  border-left: 1px solid #c5c5c5;
+  line-height: 1;
+}
+/* line 212, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.tab-control li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+/* line 218, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.tab-control li.active a {
+  color: #3d9bd2;
+}
+/* line 223, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.tab-control a {
+  color: #747474;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+/* line 229, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.tab-control a:hover {
+  text-decoration: none;
+  color: #3d9bd2;
+}
+/* line 236, /Users/Designer/Sites/gytbo/assets/site/less/theme/custom.less */
+.form-signup {
+  background-color: #ffffff;
+}
+/* line 1, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-control {
+  background-color: #fcfcfc;
+  height: 40px ;
+  font-size: 14px;
+  position: relative;
+  line-height: 1;
+  box-shadow: none;
+  -moz-box-shadow: none;
+}
+/* line 13, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.has-feedback .form-control-feedback {
+  height: auto;
+  width: auto;
+  line-height: 1;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.form-group-actions:before,
+.form-group-actions:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.form-group-actions:after {
+  clear: both;
+}
+/* line 24, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-group {
+  margin-bottom: 20px;
+}
+/* line 29, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-group-lg .form-control {
+  height: 46px;
+  line-height: 1.2;
+}
+/* line 35, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-group-lg .validator-message .fa {
+  top: 0;
+  margin: 14px 10px;
+  line-height: 1;
+}
+/* line 44, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.label-lg {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #747474;
+}
+/* line 52, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.label-control {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: #696969;
+  margin-bottom: 6px;
+}
+/* line 59, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-control {
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #818181;
+}
+/* line 67, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.label-control.h4 {
+  margin: 12px 0 10px;
+  color: #222;
+  font-size: 17px;
+}
+/* line 83, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.radio-group .checkbox,
+.checkbox-group .checkbox,
+.radio-group .radio,
+.checkbox-group .radio {
+  float: left;
+  margin-top: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+}
+/* line 92, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.radio-group .checkbox input[type="radio"],
+.checkbox-group .checkbox input[type="radio"],
+.radio-group .radio input[type="radio"],
+.checkbox-group .radio input[type="radio"],
+.radio-group .checkbox input[type="radio"],
+.checkbox-group .checkbox input[type="radio"],
+.radio-group .radio input[type="radio"],
+.checkbox-group .radio input[type="radio"],
+.radio-group .checkbox input[type="checkbox"],
+.checkbox-group .checkbox input[type="checkbox"],
+.radio-group .radio input[type="checkbox"],
+.checkbox-group .radio input[type="checkbox"],
+.radio-group .checkbox input[type="checkbox"],
+.checkbox-group .checkbox input[type="checkbox"],
+.radio-group .radio input[type="checkbox"],
+.checkbox-group .radio input[type="checkbox"] {
+  margin-left: 0;
+  margin-right: 8px;
+  margin-top: 4px;
+}
+/* line 104, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-group-icon .gytbo {
+  position: absolute;
+  z-index: 9999;
+  margin: 16px 12px;
+}
+/* line 111, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-group-icon .gytbo-password {
+  margin-top: 16px;
+}
+/* line 114, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-group-icon .form-control {
+  padding-left: 40px;
+}
+/* line 119, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.select-lg {
+  font-size: 23px;
+}
+/* line 122, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.select2 {
+  -webkit-appearance: none;
+  position: relative;
+  background-image: url("../i/dropdown.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.form-login:before,
+.form-login:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.form-login:after {
+  clear: both;
+}
+/* line 139, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-login .alert {
+  padding: 10px 13px 9px;
+  margin-top: -18px;
+  margin-bottom: 14px;
+}
+/* line 145, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-login .form-control {
+  margin-bottom: 0;
+}
+/* line 149, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-login .checkbox,
+.form-login .radio {
+  padding-top: 0;
+}
+/* line 154, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-login .btn {
+  margin-bottom: 15px;
+}
+/* line 160, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-signup .form-group-reset {
+  margin-bottom: 20px;
+}
+/* line 167, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-l2 {
+  margin: 0 0 10em;
+}
+/* line 176, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-l2 .nav-tabs li a .fa-exclamation-triangle {
+  color: #d9534f;
+  margin-left: 10px;
+  margin-right: -2px;
+}
+/* line 187, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-group-actions {
+  margin: 2em 0;
+}
+/* line 193, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.form-fieldset .form-item {
+  background: #fff;
+  margin-bottom: 8px;
+  padding: 20px 20px;
+  border-radius: 3px;
+  border: 1px solid #D8D8D8;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 1px 2px;
+}
+/* line 20, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.form-fieldset .form-item:before,
+.form-fieldset .form-item:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/Designer/Sites/gytbo/assets/site/less/bootstrap/mixins.less */
+.form-fieldset .form-item:after {
+  clear: both;
+}
+/* line 208, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.remove_form_item {
+  float: right;
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+/* line 219, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.remove_form_item .fa {
+  margin-right: 4px;
+}
+/* line 230, /Users/Designer/Sites/gytbo/assets/site/less/theme/forms.less */
+.alert .fa {
+  margin-right: 8px;
+}
+/*
+ * Modules
+ * ==========================================================================
+ */
+/* line 55, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+body {
+  padding-top: 5em;
+}
+/* line 59, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l2 {
+  padding: 5em 0 0;
+  background: #ffffff url(../i/bg-section2.jpg) right bottom no-repeat;
+}
+/* line 63, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l2 .section-heading {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 2.5em;
+}
+/* line 68, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l2 .section-heading p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #686868;
+}
+/* line 75, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l2 .section-footer {
+  border-top: 1px solid #E6E6E6;
+  padding: 2.5em 0 4em;
+  text-align: center;
+  max-width: 1124px;
+  margin: 4em auto 0;
+  width: 100%;
+}
+/* line 88, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l2 .section-title {
+  margin: 0 0 20px;
+  color: #686869;
+  font-weight: 300;
+  font-size: 40px;
+}
+@media (min-width: 1200px) {
+  /* line 96, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+  .section-l2 .container {
+    width: 1075px;
+  }
+}
+/* line 106, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l4 {
+  padding: 4em 0 3em;
+}
+/* line 110, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.avatar-rounded {
+  width: 75px;
+  margin-right: -75px;
+  float: left;
+  margin-top: 5px;
+}
+/* line 117, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.testimonial-l2 {
+  max-width: 800px;
+  margin: auto;
+}
+/* line 121, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.testimonial-l2 .avatar {
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  display: block;
+  overflow: hidden;
+  border: 3px solid #DDD;
+}
+/* line 130, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.testimonial-l2 .testimonial-text {
+  padding-left: 103px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #3F3F3F;
+  letter-spacing: normal;
+}
+/* line 137, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.testimonial-l2 .testimonial-text span {
+  margin-top: 5px;
+  display: block;
+}
+/* line 147, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.browser-frame {
+  position: relative;
+  border: 3px solid #E3E3E3;
+  border-radius: 6px 6px 0 0;
+  border-bottom: 0;
+  padding: 38px 14px 0;
+  position: absolute;
+  width: 650px;
+  bottom: 0;
+}
+/* line 157, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.browser-frame:after {
+  content: '';
+  width: 13px;
+  height: 13px;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 2px solid #DDD;
+}
+/* line 172, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.browser-frame-inner {
+  border: 1px solid #E3E3E3;
+  border-bottom: 0;
+  background: #eee;
+  min-height: 270px;
+  overflow: hidden;
+}
+/* line 184, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l3 {
+  position: relative;
+  border: solid #DADADA;
+  border-width: 1px 0;
+  padding: 3em 0 0;
+  min-height: 365px;
+}
+/* line 191, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l3 .formatted-l2 {
+  margin: 5em 0;
+  padding-right: 4em;
+}
+/* line 196, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l3 .col-md-6 {
+  position: static;
+}
+/* line 201, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.formatted-l2 {
+  margin-bottom: 3em;
+}
+/* line 204, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.formatted-l2 h1 {
+  font-size: 32px;
+  color: #555;
+  margin-bottom: 16px;
+}
+/* line 209, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.formatted-l2 p {
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 17px;
+  color: #808080;
+}
+/* line 218, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l4 {
+  background: #fff;
+  border: solid #DADADA;
+  border-width: 1px 0 0;
+}
+/* line 224, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.section-l6 {
+  text-align: center;
+  padding: 4em 0 4.5em;
+  background: #3385b5 url("../i/banner.jpg") center top no-repeat;
+}
+/* line 230, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.tax-info {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.96);
+  text-align: center;
+  margin: 0 30px;
+}
+/* line 236, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.tax-info > * {
+  display: block;
+  text-transform: uppercase;
+}
+/* line 242, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.tax-info-desc {
+  background: rgba(255, 255, 255, 0);
+  font-size: 50px;
+  display: block;
+  line-height: 1;
+  padding: 19px 37px 17px;
+  border-radius: 0;
+  margin-top: 13px;
+  border: 2px solid rgba(255, 255, 255, 0.96);
+}
+/* line 256, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.layout-2 {
+  text-align: center;
+  margin: 4em auto 2em;
+}
+@media (min-width: 1200px) {
+  /* line 260, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+  .layout-2 {
+    max-width: 240px;
+  }
+}
+/* line 264, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.layout-2 .layout-title {
+  color: #686868;
+  font-size: 22px;
+  margin: 9px 0 17px;
+}
+/* line 269, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.layout-2 p {
+  color: #686868;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+}
+/* line 280, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer {
+  background: #FFF;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* line 285, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer .list-inline {
+  margin-bottom: 0;
+}
+/* line 288, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer .list-inline > li {
+  padding: 1em;
+}
+/* line 290, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer .list-inline > li > a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0;
+  color: #6F6F6F;
+}
+/* line 297, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer .list-inline > li:first-child {
+  padding-left: 0;
+}
+/* line 304, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer-left {
+  float: left;
+}
+/* line 307, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer-right {
+  float: right;
+}
+/* line 311, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.copyright {
+  color: #B4B4B4;
+  clear: both;
+  margin: 0;
+  font-size: 12px;
+  position: relative;
+}
+/* line 318, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer-sub h1 {
+  float: left;
+  border-right: 1px solid #D8D8D8;
+  opacity: .3;
+  padding-right: 6.5em;
+  margin: 0;
+  margin-right: .6em;
+}
+/* line 326, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer-sub {
+  margin: 2.6em 0 0;
+  font-size: 13px;
+  color: #999;
+}
+/* line 331, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.l-footer-sub p {
+  max-width: 660px;
+  line-height: 1.5;
+  color: #B4B4B4;
+  padding-top: 9px;
+  display: block;
+  float: left;
+}
+/* line 340, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.list-img {
+  padding: 0;
+  list-style: none;
+}
+/* line 344, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.list-img > li {
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 352, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  letter-spacing: -1px;
+}
+/* line 359, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 {
+  margin-bottom: 0;
+}
+/* line 362, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 .list-actions {
+  visibility: hidden;
+}
+/* line 368, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 > tbody > tr:hover > td .list-actions,
+.table-l2 > tbody > tr:hover > th .list-actions {
+  visibility: visible;
+}
+/* line 373, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 .table-striped > tbody > tr:last-child > td,
+.table-l2 .table-striped > tbody > tr:last-child > th {
+  display: inline;
+}
+/* line 378, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 .truncate {
+  letter-spacing: 0px;
+}
+/* line 382, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 tfoot,
+.table-l2 .table-footer {
+  background-color: #5C5F66;
+  border-radius: 0 3px 0 3px;
+}
+/* line 387, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 tfoot tr,
+.table-l2 .table-footer tr,
+.table-l2 tfoot th,
+.table-l2 .table-footer th {
+  border-top: 0;
+  color: #fff;
+}
+/* line 394, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 tfoot tr > *,
+.table-l2 .table-footer tr > * {
+  padding: 10px 9px;
+}
+/* line 397, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.table-l2 tfoot tr > *:first-child,
+.table-l2 .table-footer tr > *:first-child {
+  font-weight: 700;
+}
+/* line 406, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.list-actions {
+  padding: 0;
+  list-style: none;
+  margin: 0 0 0;
+  text-transform: uppercase;
+}
+/* line 412, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.list-actions > li {
+  display: inline-block;
+  border-left: 1px solid #BBB;
+  line-height: .8;
+}
+/* line 417, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.list-actions > li > a {
+  letter-spacing: 0;
+  font-size: 11px;
+  padding: 0 2px 0 5px;
+}
+/* line 423, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.list-actions > li:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+@media (min-width: 1200px) {
+  /* line 432, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+  .container-fluid {
+    max-width: 1300px;
+  }
+}
+/* line 437, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.modal-content {
+  border-radius: 0;
+  box-shadow: none;
+}
+/* line 442, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.modal-l2 .modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+/* line 447, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.modal-l2 .modal-content {
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  background: #1B1B1B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 462, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.modal-l3 .modal-dialog {
+  width: 95%;
+  max-width: 1200px;
+}
+/* line 473, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.t-sidebar-inner.scroll-to-fixed-fixed .layout-l3 {
+  margin: 12.5em 0 12px;
+  padding-bottom: 0;
+  position: relative;
+}
+/* line 478, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.t-sidebar-inner.scroll-to-fixed-fixed .layout-l3 .layout-circle {
+  width: auto;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  padding-bottom: 0;
+  margin-bottom: 21px;
+  background: transparent;
+  padding: 0;
+  height: auto;
+}
+/* line 489, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.t-sidebar-inner.scroll-to-fixed-fixed .layout-l3 .layout-title {
+  text-align: left;
+  color: #7E7E7E;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+/* line 495, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.t-sidebar-inner.scroll-to-fixed-fixed .layout-circle .label {
+  color: #333;
+  text-align: left;
+  margin: 6px 0 0;
+  letter-spacing: -1px;
+  font-size: 12px;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+}
+/* line 503, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.t-sidebar-inner.scroll-to-fixed-fixed .layout-circle .title {
+  font-size: 32px;
+  letter-spacing: 0;
+}
+/* line 507, /Users/Designer/Sites/gytbo/assets/site/less/main.less */
+.t-sidebar-inner.scroll-to-fixed-fixed .layout-l3 .label-success {
+  position: absolute;
+  top: -7px;
+  right: 0;
+}

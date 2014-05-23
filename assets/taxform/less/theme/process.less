@@ -1,0 +1,355 @@
+
+.process {
+	position: relative;
+    width: 25%;
+    display: block;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: -6px;
+    border-radius: 100%;
+
+	.itp-space-path {
+		position: absolute;
+		top: -95px;
+		left: 114px;
+	}
+
+	.fa {
+	    margin-top: 5px;
+	    display: none;
+	}
+
+	> a {
+	    color: #ADADAD;
+	    text-decoration: none;
+
+	     &:after {
+	     	display: none;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 5px;
+			z-index: -1;
+			margin: auto;
+	    }
+
+	    > * {
+		    display: block;
+		}
+
+	}
+
+}
+.process-indicator {
+	position: absolute;
+	top: -116px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	.animation(process-indicator .8s infinite ease-in-out alternate);
+}
+
+.process-mark {
+	position: relative;
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: #9C9C9C;
+    border-radius: 100%;
+    margin: 0 auto 14px;
+    box-shadow: #FFF 0 0 0 2px;
+    z-index: 3;
+
+	.icon-rocket {
+		display: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+}
+.process-illustration {
+	.clearfix;
+	margin-left: -28px;
+}
+.process-indicator-finished {
+    position: absolute;
+    top: -154px;
+    left: 0;
+    right: 0;
+}
+.process-indicator-msg {
+    background: #fff;
+    border-radius: 4px;
+    padding: 6px 8px 8px;
+    text-transform: none;
+    width: 116px;
+    position: absolute;
+    top: -81px;
+    right: -30px;
+
+    p {
+	    margin: 0;
+	}
+
+	&:after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border-left: 2px solid rgba(0, 0, 0, 0);
+		border-right: 13px solid rgba(0, 0, 0, 0);
+		border-top: 19px solid #FFF;
+		margin: 20px 0 0 30px;
+		position: absolute;
+		bottom: -19px;
+		left: -9px;
+	}
+}
+
+
+.process-1-active {
+
+	.process-1 {
+		.process-mark {
+			width: 38px;
+			height: 38px;
+			padding-top: 9px;
+			margin-top: -11px;
+
+			.icon-rocket {
+				display: block;
+			}
+		}
+
+		> a {
+		    color: @blue;
+
+		     &:after {
+		     	display: block;
+		     }
+		}	
+
+		.process-mark {
+			background-color: @blue;
+		}
+	}
+}	
+
+.process-2-active {
+	.process-1 {
+		.fa-check {
+			display: block;
+		}
+	}
+
+	.process-1 {
+
+		> a {
+		    color: @blue;
+		}	
+
+		.process-mark {
+			background-color: @blue;
+		}
+	}
+
+	.process-2 {
+
+		.process-mark {
+			width: 38px;
+			height: 38px;
+			padding-top: 9px;
+			margin-top: -11px;
+
+			.icon-rocket {
+				display: block;
+			}
+		}
+
+		> a {
+		    color: @green;
+
+
+		     &:after {
+		     	display: block;
+		     }
+		}	
+
+		.process-mark {
+			background-color: @green;
+		}
+	}
+}
+
+.process-3-active {
+	.process-1 {
+		.itp-space-path {
+			background: url(../i/process/path-replace.png) 0 0 no-repeat;
+			width: 228px;
+			top: -64px;
+		}
+	}
+	.process-1,
+	.process-2 {
+		.fa-check {
+			display: block;
+		}
+	}
+
+	.process-5,
+	.process-3,
+	.process-4 {
+		.itp-space-path {
+			display: none;
+		}
+	}
+	.process-5,
+	.process-4,
+	.process-1,
+	.process-2 {
+		.process-indicator {
+			display: none;
+		}
+	}
+
+	.process-1 {
+		> a {
+		    color: @blue;
+		}	
+
+		.process-mark {
+			background-color: @blue;
+		}
+	}
+
+	.process-2 {
+		> a {
+		    color: @green;
+		}	
+
+		.process-mark {
+			background-color: @green;
+		}
+	}
+
+	.process-3 {
+
+		.process-mark {
+			width: 38px;
+			height: 38px;
+			padding-top: 9px;
+			margin-top: -11px;
+
+			.icon-rocket {
+				display: block;
+			}
+		}
+
+		> a {
+		    color: @red;
+
+
+		     &:after {
+		     	display: block;
+		     }
+		}	
+
+		.process-mark {
+			background-color: @red;
+		}
+	}
+}	
+
+
+.process-4-active {
+	.process-1,
+	.process-2 {
+		.itp-space-path {
+			background: url(../i/process/path-replace.png) 0 0 no-repeat;
+			width: 228px;
+			top: -64px;
+		}
+	}
+	.process-1,
+	.process-2,
+	.process-3 {
+		.fa-check {
+			display: block;
+		}
+	}
+
+	.process-5,
+	.process-4 {
+		.itp-space-path {
+			display: none;
+		}
+	}
+	.process-5,
+	.process-3,
+	.process-1,
+	.process-2 {
+		.process-indicator {
+			display: none;
+		}
+	}
+
+	.process-1 {
+		> a {
+		    color: @blue;
+		}	
+
+		.process-mark {
+			background-color: @blue;
+		}
+	}
+
+	.process-2 {
+		> a {
+		    color: @green;
+		}	
+
+		.process-mark {
+			background-color: @green;
+		}
+	}
+
+
+	.process-3 {
+		> a {
+		    color: @red;
+		}	
+
+		.process-mark {
+			background-color: @red;
+		}
+	}
+
+	.process-4 {
+
+		.process-mark {
+			width: 38px;
+			height: 38px;
+			padding-top: 9px;
+			margin-top: -11px;
+
+			.icon-rocket {
+				display: block;
+			}
+		}
+
+		> a {
+		    color: @orange;
+
+
+		     &:after {
+		     	display: block;
+		     }
+		}	
+
+		.process-mark {
+			background-color: @orange;
+		}
+	}
+}	

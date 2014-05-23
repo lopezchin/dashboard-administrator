@@ -1,0 +1,32 @@
+/*
+ * Admin
+ * ==========================================================================
+ */
+.t-header--affix {
+  width: 340px;
+}
+.t-header--affix .navbar-brand {
+  left: 35%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+}
+.t-content--full {
+  left: 380px;
+}
+.t-content--full-inner {
+  width: 500px;
+}
+.form-ease-in,
+.form-ease-in--2s,
+.form-ease-in--3s,
+.form-ease-in--4s {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+}
+.ie-9 .search--pretty .form-control {
+  line-height: 0;
+}
